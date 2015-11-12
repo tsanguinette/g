@@ -3668,9 +3668,53 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 233331,
+		"initialSize": 1.2989e+06,
 		"inputAbbreviatedPath": "\/img\/curtain-1.jpg",
 		"outputAbbreviatedPath": "\/img\/curtain-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/image-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80124,
+		"inputAbbreviatedPath": "\/img\/image-1.jpg",
+		"outputAbbreviatedPath": "\/img\/image-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/image-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53422,
+		"inputAbbreviatedPath": "\/img\/image-2.jpg",
+		"outputAbbreviatedPath": "\/img\/image-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/image-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96591,
+		"inputAbbreviatedPath": "\/img\/image-3.jpg",
+		"outputAbbreviatedPath": "\/img\/image-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/image-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86909,
+		"inputAbbreviatedPath": "\/img\/image-4.jpg",
+		"outputAbbreviatedPath": "\/img\/image-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3787,7 +3831,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Tyler Sanguinette",
+"lastSavedByUser": "Tyler",
 "manualImportLinks": {
 	},
 "projectAttributes": {

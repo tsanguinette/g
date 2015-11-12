@@ -170,6 +170,51 @@ nav{
 	}
 }
 
+
+
+//Photo Wall
+#photo-wall{
+	height:300px;
+	overflow:hidden;
+
+	.row{
+		margin:0;
+		padding:0;
+		max-width:none;
+	}
+
+	.image-1{
+		background-image:url("../img/image-1.jpg");
+		background-size:cover;
+		background-repeat:no-repeat;
+		height:300px;
+	}
+
+	.image-2{
+		background-image:url("../img/image-2.jpg");
+		background-size:cover;
+		background-repeat:no-repeat;
+		height:300px;
+	}
+
+	.image-3{
+		background-image:url("../img/image-3.jpg");
+		background-size:cover;
+		background-repeat:no-repeat;
+		height:300px;
+	}
+
+	.image-4{
+		background-image:url("../img/image-4.jpg");
+		background-size:cover;
+		background-repeat:no-repeat;
+		height:300px;
+	}
+}
+
+
+
+//Contact Us
 #contact-us{
 	padding:84px 0;
 	height:571px;
@@ -245,6 +290,64 @@ nav{
 		}
 	}
 }
+
+
+
+
+
+//MENU (NEW PAGE)
+#menu{
+	padding:28px 0 84px 0;
+
+	h3{
+		border-bottom: 1px solid black;
+	}
+
+	ul{
+		list-style-type: none;
+		margin:0;
+		padding:0;
+
+		li{
+
+		}
+	}
+}
+
+#menu.row{
+		margin:0;
+		max-width:none;
+	}
+
+h4{
+	font-family:$font-family-sans-serif;
+	font-size:14px;
+	margin:0;
+	padding:0;
+	letter-spacing:0.75px;
+	font-weight:700;
+	text-transform:uppercase;
+}
+
+.description{
+	font-size:16px;
+	line-height:24px;
+	font-weight:300;
+	padding:0;
+	margin:0;
+}
+
+.price{
+	font-size:16px;
+	font-weight:700;
+	padding:0;
+	margin:0;
+}
+
+
+
+
+
 
 #footer{
 	padding:56px 0;

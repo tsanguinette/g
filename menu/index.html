@@ -1,114 +1,243 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grosvenor Fish Bar</title>
-    <link rel="stylesheet" href="../css/app.css" />
-    <script src="../bower_components/modernizr/modernizr.js"></script>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Menu | Grosvenor Fish Bar</title>
+	<link rel="stylesheet" href="../css/app.css" />
+	<script src="../bower_components/modernizr/modernizr.js"></script>
 	<script src="https://use.typekit.net/msq0dwd.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
-  </head>
-  <body>	  
-	  
-	  <div class="contain-to-grid sticky">
-	  	<nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+</head>
+<body>	  
+
+	<div class="contain-to-grid sticky">
+		<nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
 			
 			<div class="large-1 columns">
 				<a class="button left">Contact Us</a>
 			</div>
 			
 			<div class="large-4 large-offset-3 columns">
-		  		<img src="../img/logo.svg" class="logo"/>
+				<img src="../img/logo.svg" class="logo"/>
 			</div>
 			
 			<div class="large-1 columns">
-		  		<a class="button right">Menu</a>
+				<a class="button right">Menu</a>
 			</div>
-	  	</nav>
+		</nav>
 	</div>
-	  
-	  <div id="curtain">
-		  <h2>Traditional</br>Fish and Chips</h2>
-		  
-		  <div class="row">
-			  <div class="large-6 large-offset-3 columns">
-				  <p class="subhead">Try our own sandwiches and wraps
-					  including sea bass, mackerel, tuna, and rock
-					  salmon with a pint from The Birdcage.</p>
-				<p class="hours">Monday through Saturday from 11:00 am to 7:00 pm</p>
-			  </div>
-		  </div>
+
+
+
+	<!--Header-->
+	<h3>Menu</h3>
+
+	<div class="row">
+		<div class="large-8 large-offset-2 columns">
+			<p>The Grosvenor Fish Bar is long established, 90 years, as a traditional fish and chip shop. We have refurbished and now serve the usual chip shop fare, plus an interesting selection of our own creations. We have seating downstairs for up to 50. Eat in/take away, same price.</p>
+		</div>
 	</div>
-	  
-      <div id="about-us">
-		  <h3>About Us</h3>
-		  
-		  <div class="row">
-			  <div class="large-8 large-offset-2 columns">
-				  <p>The Grosvenor Fish Bar is long established, 90 years, as a traditional fish and chip shop. We have refurbished and now serve the usual chip shop fare, plus an interesting selection of our own creations. We have seating downstairs for up to 50. Eat in/take away, same price.</p>
-				  <a class="button">View Menu</a>
-			  </div>
-		  </div>
-      </div>
-	  
-      <div id="contact-us">
-		  <h3>Contact Us</h3>
-		  
-		  <form data-abide>
-		    <div class="row">
-		      <div class="large-3 large-offset-3 columns">
-		        <label>First and Last Name
-		          <input type="text" placeholder="Lord Mayor" required pattern="[a-zA-Z]+">
-		        </label>
-				<small class="error">Please provide your name.</small>
-		      </div>
-			  
-		      <div class="large-3 columns">
-		        <label>Email Address
-		          <input type="text" placeholder="lmayor@council.co.uk" required pattern="email">
-		        </label>
-				<small class="error">Please provide your email address.</small>
-		      </div>
-		    </div>
-		    
-		    <div class="row">
-		      <div class="large-6 large-offset-3 space-between columns">
-		        <label>Message
-		          <textarea placeholder="small-12 columns" required></textarea>
-		        </label>
-				<small class="error">Please provide your meesage so we can help you better.</small>
-		      </div>
-		    </div>
+
+
+
+	<!--Menu Items Dropdown-->
+	<div class="row">
+    <div class="large-12 columns">
+      <label>Select Box
+        <select>
+          <option value="husker">Husker</option>
+          <option value="starbuck">Starbuck</option>
+          <option value="hotdog">Hot Dog</option>
+          <option value="apollo">Apollo</option>
+        </select>
+      </label>
+    </div>
+  </div>
+
+
+
+	<!--Menu Items-->
+	<div id="menu" class="row">
+		<div class="large-offset-3 large-6 columns">
 			
-			<div class="row">
-				<div class="large-2 large-offset-5 columns">
-					<a class="button">Submit</a>
-				</div>
+			<div class="specials">
+				<h3>Specials</h3>
+				<ul>
+					<div class="large-6 columns">
+						<li>
+							<h4>Shark Bites</h4>
+							<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+						</li>
+
+						<li>
+							<h4>Shark Bites</h4>
+							<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+						</li>
+					</div>
+
+					<div class="large-6 columns">
+						<li>
+							<h4>Shark Bites</h4>
+							<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+						</li>
+
+						<li>
+							<h4>Shark Bites</h4>
+							<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+						</li>
+					</div>
+				</ul>
 			</div>
-		  </form>
-      </div>
-	  
-      <div id="footer">
-		  <div class="row">
-	  			  <img class="logo" src="../img/logo.svg" class="logo"/>
-		  </div>
+
+			<div class="fsh large-6 columns float">
+				<h3>Fsh</h3>
+				<ul>
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+				</ul>
+			</div>
+
+			<div class="chips large-6 columns float">
+				<h3>Chips</h3>
+				<ul>
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+				</ul>
+			</div>
+
+			<div class="sausages large-6 columns float">
+				<h3>Sausages</h3>
+				<ul>
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+				</ul>
+			</div>
+
+			<div class="burgers large-6 columns float">
+				<h3>Burgers</h3>
+				<ul>
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+				</ul>
+			</div>
+
+			<div class="chicken large-6 columns float">
+				<h3>Chicken</h3>
+				<ul>
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+				</ul>
+			</div>
+
+			<div class="pies large-6 columns float">
+				<h3>Pies</h3>
+				<ul>
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+				</ul>
+			</div>
+
+			<div class="Sides large-6 columns float">
+				<h3>Sides</h3>
+				<ul>
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+				</ul>
+			</div>
+
+			<div class="drinks large-6 columns float">
+				<h3>Drinks</h3>
+				<ul>
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+
+					<li>
+						<h4>Shark Bites</h4>
+						<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<!--Footer-->
+	<div id="footer">
+		<div class="row">
+			<img class="logo" src="../img/logo.svg" class="logo"/>
+		</div>
 		
 		<div class="row">
-  		  	  	<p>Copyright ©2015</p>
-  		  		<p>28 Lower Goat Lane</br>Norwich, Great Britian</br>NR2 1EL</p>
-  		  		<p><a href="tel:4401603625855">+44 01603 625855</a></p>
+			<p class="copyright">Copyright ©2015</p>
+			<p class="address">28 Lower Goat Lane</br>Norwich, Great Britian</br>NR2 1EL</p>
+			<p><a class="phone-number" href="tel:4401603625855">+44 01603 625855</a></p>
 		</div>
-		  
-		<div class="row">
-		  	<a href="#"><img src="../img/facebook.svg"/></a>
-		  	<a href="#"><img src="../img/facebook.svg"/></a>
-		  	<a href="#"><img src="../img/facebook.svg"/></a>
-		</div>
-      </div>
 
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="../bower_components/foundation/js/foundation.min.js"></script>
-    <script src="../js/app.js"></script>
-  </body>
+		<div class="row">
+			<p>
+				<a href="https://www.facebook.com/GrosvenorFishBar"><img class="social" src="../img/facebook.svg"/></a>
+				<a href="https://twitter.com/norwichchippy"><img class="social" src="../img/twitter.svg"/></a>
+				<a href="http://www.tripadvisor.com/Restaurant_Review-g186342-d3207218-Reviews-Grosvenor_fish_bar-Norwich_Norfolk_East_Anglia_England.html"><img class="social" src="../img/facebook.svg"/></a>
+			</p>
+		</div>
+	</div>
+
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="../bower_components/foundation/js/foundation.min.js"></script>
+	<script src="../js/app.js"></script>
+</body>
 </html>
