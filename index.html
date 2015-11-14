@@ -58,8 +58,7 @@
 			  			<div class="large-6 large-offset-3 columns">
 				  			<p class="hours">Monday through Saturday from 11:00 am to 7:00 pm</p>
 				  			<p class="subhead">Try our own sandwiches and wraps
-					  including sea bass, mackerel, tuna, and rock
-					  salmon with a pint from The Birdcage.</p>
+					  including sea bass, mackerel, tuna, and rock salmon with a pint from The Birdcage.</p>
 			  			</div>
 		  			</div>
 				</div>
@@ -84,7 +83,7 @@
 		  
 		  <div class="row">
 			  <div class="large-8 large-offset-2 columns">
-				  <p>The Grosvenor Fish Bar is long established, 90 years, as a traditional fish and chip shop. We have refurbished and now serve the usual chip shop fare, plus an interesting selection of our own creations. We have seating downstairs for up to 50. Eat in/take away, same price.</p>
+				  <p>The Grosvenor Fish Bar is long established, 90 years, as a traditional fish and chip shop. We have refurbished and now serve the usual chip shop fare, plus an interesting selection of our own creations. We have seating downstairs for up to 50. Eat in/take away, same price. If you want to have a beer or a glass of fizz with your meal just order your food with us and we'll deliver it to you as you as enjoy your drink at The Birdcage Pub across the road.</p>
 				  <a href="menu/" class="button">View Menu</a>
 			  </div>
 		  </div>
@@ -104,18 +103,36 @@
       <div id="contact-us">
 		  <h3>Contact Us</h3>
 		  
-		  <form data-abide>
+		  <form action="//formspree.io/tsanguinette@gmail.com"
+		        method="POST">
+		      <input type="text" name="name">
+		      <input type="email" name="_replyto">
+			  <input type="hidden" name="_next" value="//eyeinthesky.local:5757/#openmodal" />
+		      <input type="submit" value="Send">
+		  </form>
+		  
+		  
+		  <a href="#" data-reveal-id="openmodal">Click Me For A Modal</a>
+		  <!--Form Modal-->
+		  <div id="openmodal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+		    <h2 id="modalTitle">Awesome. I have it.</h2>
+		    <p class="lead">Your couch.  It is mine.</p>
+		    <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+		    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+		  </div>
+		  
+		  <!--<form action="http://formspree.io/tsanguinette@gmail.com" method="post" enctype="text/plain" data-abide>
 		    <div class="row">
 		      <div class="large-3 large-offset-3 columns">
 		        <label>First and Last Name
-		          <input type="text" placeholder="Lord Mayor" required pattern="[a-zA-Z]+">
+		          <input type="text" placeholder="Lord Mayor" name="First_and_Last_Name" required pattern="[a-zA-Z]+">
 		        </label>
 				<small class="error">Please provide your name.</small>
 		      </div>
 			  
 		      <div class="large-3 columns">
 		        <label>Email Address
-		          <input type="text" placeholder="mayor@council.co.uk" required pattern="email">
+		          <input type="text" placeholder="mayor@council.co.uk" name="email_address" required pattern="email">
 		        </label>
 				<small class="error">Please provide your email address.</small>
 		      </div>
@@ -124,7 +141,7 @@
 		    <div class="row">
 		      <div class="large-6 large-offset-3 space-between columns">
 		        <label>Message
-		          <textarea placeholder="Something new would go here and could be up to a certain number of characters." required></textarea>
+		          <textarea placeholder="Something new would go here and could be up to a certain number of characters." name="message" required></textarea>
 		        </label>
 				<small class="error">Please provide your meesage so we can help you better.</small>
 		      </div>
@@ -133,9 +150,10 @@
 			<div class="row">
 				<div class="large-2 large-offset-5 columns">
 					<a class="button">Submit</a>
+					<input type="submit" value="Send">
 				</div>
 			</div>
-		  </form>
+		  </form>-->
       </div>
 	  
       <div id="footer">
@@ -170,6 +188,15 @@
 <script>
 jQuery(document).ready(function($) {
 	$('.toggle-menu').jPushMenu();
+});
+</script>
+<script>
+$(document).ready(function() {
+
+  if(window.location.href.indexOf('#openmodal') != -1) {
+    $('#openmodal').modal('show');
+  }
+
 });
 </script>
 		
