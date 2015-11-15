@@ -1,3 +1,4 @@
+//Slide Out Menu
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -30,22 +31,7 @@
 
 
 
-
-
-
-
-
-
-
-
-.back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-
+//General Link
 a{
 	background-color:transparent;
 	color:transparent;
@@ -56,7 +42,7 @@ a{
 	}
 }
 
-//buttons
+//General buttons
 .button{
 	height:36px;
 	width:auto;
@@ -74,6 +60,99 @@ a{
 	}
 }
 
+
+
+
+//Party Form Modal
+#partymodal{
+	
+	.float-none{
+		float:none;
+		display:block;
+	}
+	
+	.column + .column:last-child, .columns + .columns:last-child {
+	    float: left;
+	}
+
+	form{
+	
+		input{
+			height:36px;
+			border:1px solid black;
+			border-radius:1px;
+			font-family:$font-family-sans-serif;
+			font-size:16px;
+			padding:0 12px;
+			margin-top:7px;
+			background-color:transparent;
+			color:black;
+		}
+	
+		label{
+			font-family:$font-family-sans-serif;
+			font-size:14px;
+			margin:0;
+			padding:0;
+			letter-spacing:0.75px;
+			font-weight:700;
+			text-transform:uppercase;
+		}
+	
+		textarea{
+			height:144px;
+			border:1px solid black;
+			border-radius:1px;
+			font-family:$font-family-sans-serif;
+			font-size:16px;
+			padding:12px;
+			margin-top:7px;
+			background-color:transparent;
+		}
+	
+		.space-between{
+			padding-top:24px;
+		}
+	
+		.button{
+			background-color:black;
+			border-color:black;
+			display:block;
+			margin:0 auto;
+			line-height:34px;
+		
+			&:hover{
+				background-color:transparent;
+				color:black;
+			}
+		}
+	}
+}
+
+
+
+//Slider Dots
+.orbit-bullets-container{
+	position:relative;
+	bottom:52px;
+}
+
+.orbit-bullets li{
+	height:19px;
+	width:19px;
+	background:white;
+	opacity:0.5;
+	margin-right: 15px;
+}
+
+.orbit-bullets li.active{
+	opacity:1;
+	background:white;
+}
+
+
+
+//Navigation
 .contain-to-grid .top-bar {
 	margin: 0 auto;
 	margin-bottom: 0;
@@ -85,20 +164,10 @@ a{
 	background:transparent !important;
 }
 
-.top-bar {
-	//position:absolute;
-}
-
-.contain-to-grid {
-	//background:transparent !important;
-}
-
 .sticky{
 	background-color: black;
 	padding: 5px 0;
 }
-
-
 
 nav{
 	
@@ -130,7 +199,14 @@ nav{
 
 
 
-//Curtain Image and Copy
+//Orbit Content Slider
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 #curtain{
 	
 	h2{
@@ -166,6 +242,9 @@ nav{
 	}
 }
 
+
+
+//About Us
 #about-us{
 	padding:84px 0;
 	height:500px;
@@ -323,75 +402,7 @@ nav{
 
 
 
-
-
-//MENU (NEW PAGE)
-#menu{
-	padding:28px 0 84px 0;
-
-	h3{
-		border-bottom: 1px solid black;
-	}
-
-	ul{
-		list-style-type: none;
-		margin:0;
-		padding:0;
-
-		li{
-
-		}
-	}
-}
-
-#menu.row{
-		margin:0;
-		max-width:none;
-}
-
-.special{
-		text-align:center !important;
-		padding-top:56px !important;
-}
-
-h4{
-	font-family:$font-family-sans-serif;
-	font-size:14px;
-	margin:0;
-	padding:0;
-	letter-spacing:0.75px;
-	font-weight:700;
-	text-transform:uppercase;
-}
-
-h5{
-	font-family:$font-family-sans-serif;
-	font-size:14px;
-	margin:0;
-	padding:0;
-	font-weight:300;
-}
-
-.description{
-	font-size:16px;
-	line-height:24px;
-	font-weight:300;
-	padding:0;
-	margin:0;
-}
-
-.price{
-	font-size:16px;
-	font-weight:700;
-	padding:0;
-	margin:0;
-}
-
-
-
-
-
-
+//Footer
 #footer{
 	padding:56px 0;
 	height:333px;

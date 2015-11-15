@@ -1,0 +1,61 @@
+//Food Menu
+#menu{
+	padding:28px 0 84px 0;
+
+	h3{
+		border-bottom: 1px solid black;
+	}
+
+	ul{
+		list-style-type: none;
+		margin:0;
+		padding:0;
+
+		li{
+
+		}
+	}
+}
+
+#menu.row{
+		margin:0;
+		max-width:none;
+}
+
+.special{
+		text-align:center !important;
+		padding-top:56px !important;
+}
+
+h4{
+	font-family:$font-family-sans-serif;
+	font-size:14px;
+	margin:0;
+	padding:0;
+	letter-spacing:0.75px;
+	font-weight:700;
+	text-transform:uppercase;
+}
+
+h5{
+	font-family:$font-family-sans-serif;
+	font-size:14px;
+	margin:0;
+	padding:0;
+	font-weight:300;
+}
+
+.description{
+	font-size:16px;
+	line-height:24px;
+	font-weight:300;
+	padding:0;
+	margin:0;
+}
+
+.price{
+	font-size:16px;
+	font-weight:700;
+	padding:0;
+	margin:0;
+}

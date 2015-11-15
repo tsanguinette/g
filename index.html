@@ -19,7 +19,7 @@
 		  	<nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
 			
 				<div class="large-2 columns">
-					<a class="button left">Contact Us</a>
+					<a href="#partymodal" data-reveal-id="partymodal" class="button left">Book A Table</a>
 				</div>
 			
 				<div class="large-4 large-offset-2 columns">
@@ -31,6 +31,53 @@
 				</div>
 		  	</nav>
 		</div>
+		
+		
+		
+		<!--Party Form Modal-->
+	  <div id="partymodal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+		  <h3>Knees up, mate!</h3>
+		  <p>You can hire us by the hour or just book a table. We open after hours for groups and have a set menu availabe. Please tell us a bit about what you had in mind!</p>
+		  
+		  <form action="//formspree.io/tsanguinette@gmail.com"
+		        method="POST" data-abide>
+				
+				<div class="row">
+			      <div class="large-4 columns">
+			        <label>First and Last Name</label>
+		      	  	<input type="text" name="name" placeholder="Lord Mayor" required pattern="[a-zA-Z]+">
+					<small class="error">Please provide your name.</small>
+				  </div>
+			  
+		      <div class="large-4 columns">
+		        <label>Email Address</label>
+		      	<input type="email" placeholder="mayor@council.co.uk" required pattern="email" name="_replyto">
+				<small class="error">Please provide your email address.</small>
+		  	</div>
+		</div>
+			
+	      <div class="large-8 columns float-none">
+	        <label>When?</label>
+      	  	<input type="date" name="date" required>
+			<small class="error">Please provide your name.</small>
+		  </div>
+		
+			<div class="large-8 space-between columns float-none">
+				<label>Message</label>
+				<textarea placeholder="Something new would go here and could be up to a certain number of characters." name="message" required></textarea>
+				<small class="error">Please provide your meesage so we can help you better.</small>
+			</div>
+		
+			<div class="large-3 columns float-none">
+				<input type="submit" value="Send">
+			</div>
+		
+			  <input type="hidden" name="_next" value="//eyeinthesky.local:5757" />
+		  </form>
+		
+	  		<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+	  </div>
+	  
 
 
 
@@ -38,8 +85,8 @@
 		<!-- Right menu element-->
 <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right">
 	<h3>Menu</h3>
-	<a href="#">Celery seakale</a>
-	<a href="#">Dulse daikon</a>
+	<a href="#about-us">About Us</a>
+	<a href="#contact-us">Contact Us</a>
 	<a href="#">Zucchini garlic</a>
 	<a href="#">Catsear azuki bean</a>
 	<a href="#">Dandelion bunya</a>
@@ -49,7 +96,14 @@
 
 
 		<!--Orbit Slider/Curtain-->
-		<ul class="example-orbit" data-orbit>
+		<ul class="example-orbit" data-orbit data-options="animation:slide;
+                  pause_on_hover:false;
+                  animation_speed:500;
+                  navigation_arrows:true;
+                  bullets:true;
+				  slide_number:false;
+				  swipe:true;
+				  variable_height:false;">
 			<li class="active">
 				<div id="curtain">
 		  			<h2>Traditional</br>Fish and Chips</h2>
@@ -67,11 +121,11 @@
 			</li>
 
 			<li>
-				<img src="img/curtain-1.jpg" alt="slide 2" />
+				<img src="img/curtain-2.jpg" alt="slide 2" />
 			</li>
 
 			<li>
-				<img src="img/curtain-1.jpg" alt="slide 3" />
+				<img src="img/curtain-3.jpg" alt="slide 3" />
 			</li>
 		</ul>
 
@@ -104,16 +158,42 @@
 		  <h3>Contact Us</h3>
 		  
 		  <form action="//formspree.io/tsanguinette@gmail.com"
-		        method="POST">
-		      <input type="text" name="name">
-		      <input type="email" name="_replyto">
+		        method="POST" data-abide>
+				
+			    <div class="row">
+			      <div class="large-3 large-offset-3 columns">
+			        <label>First and Last Name</label>
+		      	  	<input type="text" name="name" placeholder="Lord Mayor" required pattern="[a-zA-Z]+">
+					<small class="error">Please provide your name.</small>
+				  </div>
+			  
+		      <div class="large-3 columns">
+		        <label>Email Address</label>
+		      	<input type="email" placeholder="mayor@council.co.uk" required pattern="email" name="_replyto">
+				<small class="error">Please provide your email address.</small>
+		  	</div>
+	  	</div>
+		
+		<div class="row">
+			<div class="large-6 large-offset-3 space-between columns">
+				<label>Message</label>
+				<textarea placeholder="Something new would go here and could be up to a certain number of characters." name="message" required></textarea>
+				<small class="error">Please provide your meesage so we can help you better.</small>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="large-2 large-offset-5 columns">
+				<input type="submit" value="Send">
+			</div>
+		</div>
+		
 			  <input type="hidden" name="_next" value="//eyeinthesky.local:5757/#openmodal" />
-		      <input type="submit" value="Send">
 		  </form>
 		  
 		  
-		  <a href="#" data-reveal-id="openmodal">Click Me For A Modal</a>
-		  <!--Form Modal-->
+		  <a href="#openmodal" data-reveal-id="openmodal">Click Me For A Modal</a>
+		  <!--Form Sucess Modal-->
 		  <div id="openmodal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
 		    <h2 id="modalTitle">Awesome. I have it.</h2>
 		    <p class="lead">Your couch.  It is mine.</p>
