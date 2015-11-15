@@ -117,7 +117,7 @@
 		  			</div>
 				</div>
 
-				<img class="back" src="img/curtain-1.jpg" alt="slide 1" />
+				<img class="back" src="img/curtain-1.jpg" alt="slide 1" data-interchange="[img/curtain-1.jpg, (default)], [img/curtain-1-mobile.jpg, (small-only)]" />
 			</li>
 
 			<li>
@@ -276,6 +276,17 @@ $(document).ready(function() {
   if(window.location.href.indexOf('#openmodal') != -1) {
     $('#openmodal').modal('show');
   }
+
+});
+</script>
+<script>
+$(document).ready(function() {
+
+  // init showing interchange images inside orbit
+  $('[data-orbit]').on('replace', 'img', function(e, new_path, original_path) {
+    $('[data-orbit]').foundation('orbit').resize();
+  });
+
 
 });
 </script>
