@@ -3695,6 +3695,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/curtain-2-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40342,
+		"inputAbbreviatedPath": "\/img\/curtain-2-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/curtain-2-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/curtain-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3702,6 +3713,17 @@
 		"initialSize": 198881,
 		"inputAbbreviatedPath": "\/img\/curtain-2.jpg",
 		"outputAbbreviatedPath": "\/img\/curtain-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/curtain-3-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53767,
+		"inputAbbreviatedPath": "\/img\/curtain-3-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/curtain-3-mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

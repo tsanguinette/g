@@ -195,6 +195,10 @@ nav{
 		right:12px;
 		
 	}
+	
+	.logo{
+		height:33px;
+	}
 }
 
 
@@ -448,4 +452,21 @@ nav{
 		//height:667px;
 		height:100%;
 	}
+	
+	nav{
+		
+		.logo{
+			height:26px;
+			padding:10px 0 0 16px;
+		}
+	}
 }
+
+
+
+@media #{$medium-only}{
+	.no-full-width-on-mobile{
+		width:auto;
+	}
+}
+
