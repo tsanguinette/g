@@ -6173,6 +6173,44 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 
+.cbp-spmenu-vertical a {
+  border-bottom: 1px solid black !important;
+  padding: 20px 28px 8px 28px !important; }
+
+.cbp-spmenu {
+  background: #e5e5e5 !important;
+  border-left: 1px solid black;
+  -webkit-box-shadow: -11px 0px 26px -15px rgba(0, 0, 0, 0.98);
+  -moz-box-shadow: -11px 0px 26px -15px rgba(0, 0, 0, 0.98);
+  box-shadow: -11px 0px 26px -15px rgba(0, 0, 0, 0.98); }
+  .cbp-spmenu a {
+    color: black !important;
+    font-weight: 300; }
+    .cbp-spmenu a:hover {
+      background: #c2c2c2 !important; }
+
+.slide-contact {
+  position: absolute;
+  padding-top: 28px;
+  bottom: 28px; }
+  .slide-contact p {
+    margin: 0;
+    padding: 0 0 0 28px;
+    font-size: 13px;
+    line-height: 18px; }
+    .slide-contact p:first-of-type {
+      padding-bottom: 16px; }
+    .slide-contact p:last-of-type {
+      margin: -8px;
+      padding: 16px 0 0 28px; }
+    .slide-contact p a.text-link {
+      padding: 0 !important;
+      margin: 0 !important;
+      border-bottom: none !important; }
+      .slide-contact p a.text-link:hover {
+        text-decoration: underline;
+        background: transparent !important; }
+
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -6288,7 +6326,10 @@ a {
 .contain-to-grid .top-bar {
   margin: 0 auto;
   margin-bottom: 0;
-  max-width: none; }
+  max-width: none;
+  -webkit-box-shadow: -10px 12px 26px -15px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: -10px 12px 26px -15px rgba(0, 0, 0, 0.76);
+  box-shadow: -10px 12px 26px -15px rgba(0, 0, 0, 0.76); }
 
 .contain-to-grid .top-bar {
   background-color: transparent !important;
@@ -6484,6 +6525,10 @@ nav {
     width: 36px; }
 
 @media only screen and (max-width: 40em) {
+  .cbp-spmenu-vertical a {
+    padding: 20px 0 8px 0 !important; }
+  .cbp-spmenu {
+    padding: 0 28px; }
   .orbit-container .orbit-slides-container {
     height: 100%; }
   nav .logo {
