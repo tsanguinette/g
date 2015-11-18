@@ -532,6 +532,64 @@ nav{
 			padding:10px 0 0 16px;
 		}
 	}
+	
+	
+	
+	//Curtain
+	#curtain{
+	
+		h2{
+			font-size:34px;
+			line-height:30px;
+			padding:35% 0 0 0;
+		}
+	
+		p.subhead{
+			font-size:16px;
+			text-align:center;
+			line-height:20px;
+		}
+	
+		.hours{
+			font-size:14px;
+			padding: 16px 0;
+		}
+	}
+	
+	
+	
+	//About Us
+	#about-us{
+		padding:48px 0;
+		height:auto;
+	
+		h3{
+			font-size:22px;
+			padding-bottom:10px;
+		}
+	
+		p{
+			font-size:16px;
+			padding-bottom:16px;
+		}
+	
+		.button{
+			border:1px solid black;
+			color:black;
+			width:113px;
+			margin:0 auto;
+			display:block;
+			line-height:34px;
+		
+			&:hover{
+				background-color:$gray;
+			}
+		}
+	}
+	
+	
+	
+	//
 }
 
 

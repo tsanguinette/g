@@ -6533,7 +6533,36 @@ nav {
     height: 100%; }
   nav .logo {
     height: 26px;
-    padding: 10px 0 0 16px; } }
+    padding: 10px 0 0 16px; }
+  #curtain h2 {
+    font-size: 34px;
+    line-height: 30px;
+    padding: 35% 0 0 0; }
+  #curtain p.subhead {
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px; }
+  #curtain .hours {
+    font-size: 14px;
+    padding: 16px 0; }
+  #about-us {
+    padding: 48px 0;
+    height: auto; }
+    #about-us h3 {
+      font-size: 22px;
+      padding-bottom: 10px; }
+    #about-us p {
+      font-size: 16px;
+      padding-bottom: 16px; }
+    #about-us .button {
+      border: 1px solid black;
+      color: black;
+      width: 113px;
+      margin: 0 auto;
+      display: block;
+      line-height: 34px; }
+      #about-us .button:hover {
+        background-color: #e5e5e5; } }
 
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
   .no-full-width-on-mobile {
