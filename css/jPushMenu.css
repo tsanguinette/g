@@ -31,7 +31,7 @@
 
 /* Orientation-dependent styles for the content of the menu */
 .cbp-spmenu-vertical {
-    width: 240px;
+    width: 250px;
     height: 100%;
     top: 0;
     z-index: 1000;
@@ -70,7 +70,7 @@
 }
 
 .cbp-spmenu-right {
-    right: -240px;
+    right: -250px;
 }
 
 .cbp-spmenu-left.menu-open {
@@ -107,11 +107,11 @@
 }
 
 .push-body-toright {
-    left: 240px;
+    left: 250px;
 }
 
 .push-body-toleft {
-    left: -240px;
+    left: -250px;
 }
 
 /* Transitions */
