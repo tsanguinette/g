@@ -50,7 +50,7 @@
 		<!--Party Form Modal-->
 	  <div id="partymodal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
 		  <h3>Knees up, mate!</h3>
-		  <p>You can hire us by the hour or just book a table. We open after hours for groups and have a set menu availabe. Please tell us a bit about what you had in mind!</p>
+		  <p class="large-8">You can hire us by the hour or just book a table. We open after hours for groups and have a set menu availabe. Please tell us a bit about what you had in mind!</p>
 		  
 		  <form action="//formspree.io/tsanguinette@gmail.com"
 		        method="POST" data-abide>
@@ -58,13 +58,13 @@
 				<div class="row">
 			      <div class="large-4 columns">
 			        <label>First and Last Name</label>
-		      	  	<input type="text" name="name" placeholder="Lord Mayor" required pattern="[a-zA-Z]+">
+		      	  	<input type="text" name="name" placeholder="Lady Rose MacClare" required pattern="[a-zA-Z]+">
 					<small class="error">Please provide your name.</small>
 				  </div>
 			  
 		      <div class="large-4 columns">
 		        <label>Email Address</label>
-		      	<input type="email" placeholder="mayor@council.co.uk" required pattern="email" name="_replyto">
+		      	<input type="email" placeholder="Ilovejackross@downton.co.uk" required pattern="email" name="_replyto">
 				<small class="error">Please provide your email address.</small>
 		  	</div>
 		</div>
@@ -100,7 +100,7 @@
 	<a href="/menu/">Menu</a>
 	<a href="#about-us">About Us</a>
 	<a class="show-for-small-only" data-reveal-id="partymodal" href="#partymodal">Book A Party</a>
-	<a href="#">Photo Gallery</a>
+	<a href="#photo-wall">Photo Gallery</a>
 	<a href="#contact-us">Message Us</a>
 	<a class="show-for-small-only" href="tel:4401603625855">Give Us A Ring</a>
 	
@@ -171,6 +171,33 @@
 		      <div class="large-3 columns image-4"></div>
 		</div>
 	</div>
+	
+	
+	
+	<!--Photo Wall Mobile Slider-->
+	<!--Orbit Slider/Curtain-->
+	<div class="show-for-small-only">
+	<ul class="example-orbit photo-wall-mobile" data-orbit data-options="animation:slide;
+              pause_on_hover:false;
+              animation_speed:500;
+              navigation_arrows:false;
+              bullets:true;
+			  slide_number:false;
+			  swipe:true;
+			  variable_height:false;">
+		<li class="active">
+			<img src="img/image-1-mobile.jpg" alt="slide 1"/>
+		</li>
+
+		<li>
+			<img src="img/image-2-mobile.jpg" alt="slide 2"/>
+		</li>
+
+		<li>
+			<img src="img/image-3-mobile.jpg" alt="slide 3"/>
+		</li>
+	</ul>
+</div>
 
 	  
       <div id="contact-us">
@@ -267,9 +294,9 @@
 		</div>
 		  
 		<div class="row">
-			<p>
+			<p class="pad-top">
 		  		<a href="https://www.facebook.com/GrosvenorFishBar"><img class="social" src="img/facebook.svg"/></a>
-		  		<a href="https://twitter.com/norwichchippy"><img class="social" src="img/twitter.svg"/></a>
+		  		<a href="https://twitter.com/norwichchippy"><img class="social middle" src="img/twitter.svg"/></a>
 		  		<a href="http://www.tripadvisor.com/Restaurant_Review-g186342-d3207218-Reviews-Grosvenor_fish_bar-Norwich_Norfolk_East_Anglia_England.html"><img class="social" src="img/facebook.svg"/></a>
 			</p>
 		</div>

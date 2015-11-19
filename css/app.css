@@ -6308,6 +6308,9 @@ a {
     background-color: transparent;
     color: black; }
 
+.orbit-container {
+  height: 100%; }
+
 .orbit-bullets-container {
   position: relative;
   bottom: 52px; }
@@ -6395,7 +6398,7 @@ nav {
 
 #about-us {
   padding: 84px 0;
-  height: 500px; }
+  height: auto; }
   #about-us h3 {
     text-align: center;
     font-family: "museo-sans", Helvetica, Roboto, Arial, sans-serif;
@@ -6448,7 +6451,7 @@ nav {
 
 #contact-us {
   padding: 84px 0;
-  height: 571px;
+  height: auto;
   background-color: #e5e5e5; }
   #contact-us h3 {
     text-align: center;
@@ -6487,9 +6490,11 @@ nav {
     font-size: 16px;
     padding: 12px;
     margin-top: 7px;
-    background-color: transparent; }
+    background-color: transparent;
+    display: block; }
   #contact-us form .space-between {
-    padding-top: 24px; }
+    padding-top: 7px;
+    padding-bottom: 16px; }
   #contact-us form .button {
     background-color: black;
     border-color: black;
@@ -6499,6 +6504,9 @@ nav {
     #contact-us form .button:hover {
       background-color: transparent;
       color: black; }
+  #contact-us form input[type="submit"] {
+    display: block;
+    margin: 0 auto; }
 
 #footer {
   padding: 56px 0;
@@ -6514,6 +6522,8 @@ nav {
     text-align: center;
     margin: 0;
     padding: 0; }
+  #footer .pad-top {
+    padding-top: 28px; }
   #footer .copyright {
     padding-bottom: 8px; }
   #footer .address {
@@ -6523,6 +6533,8 @@ nav {
   #footer .social {
     height: 36px;
     width: 36px; }
+  #footer .middle {
+    margin: 0 14px; }
 
 @media only screen and (max-width: 40em) {
   .cbp-spmenu-vertical a {
@@ -6534,6 +6546,11 @@ nav {
   nav .logo {
     height: 26px;
     padding: 10px 0 0 16px; }
+  .photo-wall-mobile {
+    height: 350px;
+    background: red;
+    overflow: visible;
+    display: block; }
   #curtain h2 {
     font-size: 34px;
     line-height: 30px;
@@ -6555,14 +6572,39 @@ nav {
       font-size: 16px;
       padding-bottom: 16px; }
     #about-us .button {
-      border: 1px solid black;
-      color: black;
       width: 113px;
-      margin: 0 auto;
-      display: block;
       line-height: 34px; }
-      #about-us .button:hover {
-        background-color: #e5e5e5; } }
+  #contact-us {
+    padding: 48px 0;
+    height: auto; }
+    #contact-us h3 {
+      font-size: 22px;
+      padding-bottom: 16px; }
+    #contact-us form input {
+      padding: 0 12px;
+      margin-top: 7px; }
+    #contact-us form label {
+      font-size: 14px; }
+    #contact-us form textarea {
+      height: 144px;
+      border: 1px solid black;
+      border-radius: 1px;
+      font-family: "museo-sans", Helvetica, Roboto, Arial, sans-serif;
+      font-size: 16px;
+      padding: 12px;
+      margin-top: 7px;
+      background-color: transparent; }
+    #contact-us form .space-between {
+      padding-top: 24px; }
+    #contact-us form .button {
+      background-color: black;
+      border-color: black;
+      display: block;
+      margin: 0 auto;
+      line-height: 34px; }
+      #contact-us form .button:hover {
+        background-color: transparent;
+        color: black; } }
 
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
   .no-full-width-on-mobile {
@@ -6576,6 +6618,10 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0; }
+  #menu .specials li {
+    padding-bottom: 22px; }
+    #menu .specials li:last-of-type {
+      padding-bottom: 0; }
 
 #menu.row {
   margin: 0;
