@@ -182,7 +182,7 @@ select {
     margin-left: 0;
     margin-right: 0; }
   .row .row {
-    margin: 0 -0.9375rem;
+    margin: 0 -0.375rem;
     max-width: none;
     width: auto; }
     .row .row:before, .row .row:after {
@@ -202,8 +202,8 @@ select {
 
 .column,
 .columns {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
   width: 100%;
   float: left; }
 
@@ -344,8 +344,8 @@ select {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 0.375rem;
+    padding-right: 0.375rem;
     float: left; }
 
   .small-1 {
@@ -460,8 +460,8 @@ select {
     margin-right: 0; }
   .row.small-uncollapse > .column,
   .row.small-uncollapse > .columns {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 0.375rem;
+    padding-right: 0.375rem;
     float: left; } }
 @media only screen and (min-width: 40.0625em) {
   .medium-push-0 {
@@ -587,8 +587,8 @@ select {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 0.375rem;
+    padding-right: 0.375rem;
     float: left; }
 
   .medium-1 {
@@ -703,8 +703,8 @@ select {
     margin-right: 0; }
   .row.medium-uncollapse > .column,
   .row.medium-uncollapse > .columns {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 0.375rem;
+    padding-right: 0.375rem;
     float: left; }
 
   .push-0 {
@@ -950,8 +950,8 @@ select {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 0.375rem;
+    padding-right: 0.375rem;
     float: left; }
 
   .large-1 {
@@ -1066,8 +1066,8 @@ select {
     margin-right: 0; }
   .row.large-uncollapse > .column,
   .row.large-uncollapse > .columns {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 0.375rem;
+    padding-right: 0.375rem;
     float: left; }
 
   .push-0 {
@@ -1214,7 +1214,7 @@ select {
         background: #e3e3e3; }
     .accordion .accordion-navigation > .content, .accordion dd > .content {
       display: none;
-      padding: 0.9375rem; }
+      padding: 0.375rem; }
       .accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
         background: #FFFFFF;
         display: block; }
@@ -1817,7 +1817,7 @@ select {
   width: 100%;
   z-index: 89;
   margin-top: 2px;
-  max-width: 200px; }
+  max-width: none; }
   .f-dropdown.open {
     display: block; }
   .f-dropdown > *:first-child {
@@ -1869,7 +1869,7 @@ select {
     z-index: 89;
     margin-top: 0;
     margin-left: 2px;
-    max-width: 200px; }
+    max-width: none; }
     .f-dropdown.drop-right.open {
       display: block; }
     .f-dropdown.drop-right > *:first-child {
@@ -1915,7 +1915,7 @@ select {
     z-index: 89;
     margin-top: 0;
     margin-left: -2px;
-    max-width: 200px; }
+    max-width: none; }
     .f-dropdown.drop-left.open {
       display: block; }
     .f-dropdown.drop-left > *:first-child {
@@ -1963,7 +1963,7 @@ select {
     z-index: 89;
     margin-left: 0;
     margin-top: -2px;
-    max-width: 200px; }
+    max-width: none; }
     .f-dropdown.drop-top.open {
       display: block; }
     .f-dropdown.drop-top > *:first-child {
@@ -2023,7 +2023,7 @@ select {
     padding: 1.25rem;
     width: 100%;
     z-index: 89;
-    max-width: 200px; }
+    max-width: none; }
     .f-dropdown.content.open {
       display: block; }
     .f-dropdown.content > *:first-child {
@@ -4129,17 +4129,17 @@ table {
   .tabs-content > .content {
     display: none;
     float: left;
-    padding: 0.9375rem 0;
+    padding: 0.375rem 0;
     width: 100%; }
     .tabs-content > .content.active {
       display: block;
       float: none; }
     .tabs-content > .content.contained {
-      padding: 0.9375rem; }
+      padding: 0.375rem; }
   .tabs-content.vertical {
     display: block; }
     .tabs-content.vertical > .content {
-      padding: 0 0.9375rem; }
+      padding: 0 0.375rem; }
 
 @media only screen and (min-width: 40.0625em) {
   .tabs.vertical {

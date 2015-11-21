@@ -117,7 +117,10 @@ a{
 	
 	&:hover{
 		background-color:$gray;
-		color:black;
+	}
+	
+	&:focus{
+		outline: none;
 	}
 }
 
@@ -149,6 +152,10 @@ a{
 			background-color:transparent;
 			color:black;
 		}
+			
+		input[type="date"]{
+				color:black;
+			}
 	
 		label{
 			font-family:$font-family-sans-serif;
@@ -169,6 +176,7 @@ a{
 			padding:12px;
 			margin-top:7px;
 			background-color:transparent;
+			color:black;
 		}
 	
 		.space-between{
@@ -553,9 +561,14 @@ nav{
 	nav{
 		
 		.logo{
-			height:26px;
-			padding:10px 0 0 16px;
+			height:16px;
+			padding-left:16px;
 		}
+	}
+	
+	.top-bar .button{
+		margin-top:6px;
+		line-height:22px;
 	}
 	
 	
@@ -677,6 +690,13 @@ nav{
 @media #{$medium-only}{
 	.no-full-width-on-mobile{
 		width:auto;
+	}
+	
+	nav{
+		
+		.logo{
+			height:17px;
+		}
 	}
 }
 

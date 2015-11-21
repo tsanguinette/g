@@ -21,7 +21,7 @@
 	  					<a href="#partymodal" data-reveal-id="partymodal" class="button left">Book A Table</a>
 	  				</div>
 			
-	  				<div class="large-4 large-offset-2 medium-2 medium-offset-1 no-full-width-on-mobile columns">
+	  				<div class="large-4 large-offset-2 medium-4 medium-offset-2 no-full-width-on-mobile columns">
 	  			  		<img src="../img/logo.svg" class="logo"/>
 	  				</div>
 			
@@ -49,11 +49,11 @@
 		<!--Tap Menu-->
 		<!-- Right menu element-->
 		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right">
-			<a href="/menu/">Menu</a>
-			<a href="#about-us">About Us</a>
+			<a href="#">Menu</a>
+			<a href="../#about-us">About Us</a>
 			<a class="show-for-small-only" data-reveal-id="partymodal" href="#partymodal">Book A Party</a>
-			<a href="#photo-wall">Photo Gallery</a>
-			<a href="#contact-us">Message Us</a>
+			<a href="../#photo-wall">Photo Gallery</a>
+			<a href="../#contact-us">Message Us</a>
 			<a class="show-for-small-only" href="tel:4401603625855">Give Us A Ring</a>
 	
 			<div class="slide-contact">
@@ -66,7 +66,7 @@
 		
 		
   		<!--Party Form Modal-->
-  	  <div id="partymodal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  	  <div id="partymodal" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
   		  <h3>Knees up, mate!</h3>
   		  <p class="large-8">You can hire us by the hour or just book a table. We open after hours for groups and have a set menu availabe. Please tell us a bit about what you had in mind!</p>
 		  
@@ -110,12 +110,13 @@
   	  </div>
 
 
-
+<!--Mobile Padding-->
+ <div class="mobile-padding">
 	<!--Header-->
 	<h3 class="special">Menu</h3>
 
 	<div class="row">
-		<div class="large-8 large-offset-2 columns">
+		<div class="large-8 large-offset-2 medium-8 medium-offset-2 columns">
 			<p>The Grosvenor Fish Bar is long established, 90 years, as a traditional fish and chip shop. We have refurbished and now serve the usual chip shop fare, plus an interesting selection of our own creations. We have seating downstairs for up to 50. Eat in/take away, same price.</p>
 		</div>
 	</div>
@@ -123,12 +124,12 @@
 	
 	
 	<!--New Dropdown-->
-	<h4>What Do You Fancy?</h4>
+	<!--<h4 class="text-center">What Do You Fancy?</h4>-->
 	<div class="row">
 		<div class="large-12 columns">	
-			<a class="button" href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:500">Burgers</a>
+			<button class="button-dropdown dropdown large-3" href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false">What do you fancy?</button>
 
-			<ul id="hover1" class="f-dropdown" data-dropdown-content>
+			<ul id="drop1" aria-hidden="true" data-dropdown-content class="large-3 f-dropdown">
 				<li><a class="drop-scrolla" href="#burgers">Burgers</a></li>
 				<li><a class="drop-scrollb" href="#chicken">Chicken</a></li>
 				<li><a class="drop-scrollc" href="#chips">Chips</a></li>
@@ -146,7 +147,7 @@
 
 	<!--Menu Items-->
 	<div id="menu" class="row">
-		<div class="large-offset-3 large-6 columns">
+		<div class="large-offset-3 large-6 medium-6 medium-offset-3 columns">
 			
 			<div id="specials" class="specials">
 				<h3>Specials</h3>
@@ -451,7 +452,7 @@
 
 		</div>
 	</div>
-
+</div><!--Mobile Padding-->
 
 
 	<!--Footer-->
