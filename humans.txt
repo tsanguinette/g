@@ -6,3 +6,33 @@
   Standards: HTML5, CSS3
   Components: jQuery, Orbit, Reveal
   Software: Coda, Textmate, Git
+
+/* Designer & Developer */
+  Tyler Sanguinette
+  http://tylersanguinette.com/
+
+/* Image Attributions */
+  Name
+  http://
+
+  Name
+  http://
+
+  Name
+  http://
+
+  Name
+  http://
+
+  Name
+  http://
+
+  Name
+  http://
+
+  Name
+  http://
+
+/* Video Attribution */
+  Name
+  http://

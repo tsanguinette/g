@@ -1,15 +1,32 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grosvenor Fish Bar</title>
-    <link rel="stylesheet" href="css/app.css" />
-    <link rel="stylesheet" type="text/css" href="css/jPushMenu.css" />
-    <script src="bower_components/modernizr/modernizr.js"></script>
-	<script src="https://use.typekit.net/msq0dwd.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>
-  </head>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Grosvenor Fish Bar</title>
+
+	<!--OG Metadata-->
+	<meta property="og:title" content="Grosvenor Fish Bar" />
+	<meta property="og:site_name" content="Grosvenor Fish Bar"/>
+	<meta property="og:description" 
+	content="Grosvenor Fish Bar is long established, 90 years, as a traditional fish and chip shop. We have refurbished and now serve the usual chip shop fare, plus an interesting selection of our own creations." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://fshshop.com" />
+	<meta property="og:image" content="img/image.jpg" />
+	<meta property="og:locale" content="en_GB" />
+	<meta name="keywords" content="fish, chips, Norwich, Norfolk, Norwich Lanes, chippy, cod, haddock, goujon, birdcage">
+
+	<!--Twitter Metadata-->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@chippyshop">
+	<meta name="twitter:title" content="Grosvenor Fish Bar">
+	<meta name="twitter:description" content="Grosvenor Fish Bar is long established, 90 years, as a traditional fish and chip shop in Norwich. Try our fish & chips or indulge in our own selection of sandwich creations.">
+	<meta name="twitter:image" content="#">
+
+
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+	<link rel="stylesheet" href="css/app.css" />
+</head>
   <body>
 
 
@@ -304,47 +321,29 @@
 			<p class="pad-top">
 		  		<a href="https://www.facebook.com/GrosvenorFishBar"><img class="social" src="img/facebook.svg"/></a>
 		  		<a href="https://twitter.com/norwichchippy"><img class="social middle" src="img/twitter.svg"/></a>
-		  		<a href="http://www.tripadvisor.com/Restaurant_Review-g186342-d3207218-Reviews-Grosvenor_fish_bar-Norwich_Norfolk_East_Anglia_England.html"><img class="social" src="img/facebook.svg"/></a>
+		  		<a href="http://www.tripadvisor.com/Restaurant_Review-g186342-d3207218-Reviews-Grosvenor_fish_bar-Norwich_Norfolk_East_Anglia_England.html"><img class="social" src="img/tripadvisor.svg"/></a>
 			</p>
 		</div>
       </div>
 
 
+	<!--Push Menu CSS-->
+	<link rel="stylesheet" type="text/css" href="css/jPushMenu.css" />
 
+    <!--Typekit-->
+	<script src="https://use.typekit.net/msq0dwd.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+	<!--Bower Components-->
+	<script src="bower_components/modernizr/modernizr.js"></script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
-<!--load jPushMenu, required-->
-<script src="js/jPushMenu.js"></script>
 
-<!--call jPushMenu, required-->
-<script>
-jQuery(document).ready(function($) {
-	$('.toggle-menu').jPushMenu();
-});
-</script>
-<script>
-$(document).ready(function() {
+	<!--load jPushMenu, required-->
+	<script src="js/jPushMenu.js"></script>
 
-  if(window.location.href.indexOf('#openmodal') != -1) {
-    $('#openmodal').modal('show');
-  }
-
-});
-</script>
-<script>
-$(document).ready(function() {
-
-  // init showing interchange images inside orbit
-  $('[data-orbit]').on('replace', 'img', function(e, new_path, original_path) {
-    $('[data-orbit]').foundation('orbit').resize();
-  });
-
-
-});
-</script>
-		
-
-
+	<!--JS Calls Combined-->
+	<script src="js/all.js"></script>
   </body>
 </html>

@@ -1,29 +1,16 @@
-# Foundation libsass template
+# Grosvenor Fish Bar
 
-This is a template to start your own project that uses Grunt and libsass!
+A responsive website redesign with redfined marketing and metadata contributions.
+Current website (http://fshshop.com/)
 
-## Requirements
+## Usage
 
-You'll need to have the following items installed before continuing.
+You may contribute to the project if it improves the code. Nothing structural.
 
-  * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
-  * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
-  * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
+## Credits
 
-## Quickstart
+Grosvenor Fish Bar nor I claim rights to the images used on this site in development. All images are used as for production only until sufficient usage rights have been established.
 
-```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
-npm install && bower install
-```
+## License
 
-While you're working on your project, run:
-
-`grunt`
-
-And you're set!
-
-## Directory Structure
-
-  * `scss/_settings.scss`: Foundation configuration settings go in here
-  * `scss/app.scss`: Application styles go here
+Apache License 2.0
