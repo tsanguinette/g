@@ -306,8 +306,6 @@ $tuatara       : #444444 !default;
 $oil           : #333333 !default;
 $jet           : #222222 !default;
 $black         : #000000 !default;
-$gray		   : #e5e5e5;
-$transparent   : transparent !default;
 
 // We use these as default colors throughout
 $primary-color: #008CBA !default;   // bondi-blue
@@ -317,11 +315,8 @@ $success-color: #43AC6A !default;   // sea-green
 $warning-color: #f08a24 !default;   // carrot
 $info-color: #a0d3e8 !default;      // cornflower
 
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,600italic);
-
 // We use these to define default font stacks
-$font-family-sans-serif: "museo-sans", Helvetica, Roboto, Arial, sans-serif !default;
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !default;
 $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif !default;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace !default;
 
@@ -366,7 +361,7 @@ $include-print-styles: true !default;
 $include-js-meta-styles: true !default; // Warning! Meta styles are a dependancy of the Javascript.
 $include-html-global-classes: $include-html-classes !default;
 
-$column-gutter: rem-calc(12) !default;
+$column-gutter: rem-calc(30) !default;
 
 // Media Query Ranges
 $small-breakpoint:  em-calc(640)  !default;
