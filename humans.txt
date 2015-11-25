@@ -12,14 +12,17 @@
   http://tylersanguinette.com/
 
 /* Image Attributions */
-  Name
-  http://
+  Jonas and Julia
+  https://www.flickr.com/photos/ryner
+  https://www.flickr.com/photos/77443889@N05/9968301516/sizes/k/
 
-  Name
-  http://
+  Signore Aceto
+  https://www.flickr.com/photos/77443889@N05/
+  https://www.flickr.com/photos/77443889@N05/9968301516/sizes/k/
 
-  Name
-  http://
+  Denise Ferley
+  https://www.flickr.com/photos/43975242@N08/
+  https://www.flickr.com/photos/43975242@N08/16036534077/sizes/l
 
   Name
   http://
