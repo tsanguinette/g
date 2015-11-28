@@ -58,7 +58,7 @@ body {
   background: #fff;
   color: #222;
   cursor: auto;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "museo-sans", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -954,7 +954,7 @@ select {
       background: #EFEFEF;
       color: #222222;
       display: block;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "museo-sans", Arial, sans-serif;
       font-size: 1rem;
       padding: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
@@ -1353,7 +1353,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "museo-sans", Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -3286,7 +3286,7 @@ kbd {
 
 .label {
   display: inline-block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "museo-sans", Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
   margin-bottom: auto;
@@ -3674,7 +3674,7 @@ ul.pagination {
   .pricing-table .title {
     background-color: #333333;
     color: #EEEEEE;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "museo-sans", Arial, sans-serif;
     font-size: 1rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -3682,7 +3682,7 @@ ul.pagination {
   .pricing-table .price {
     background-color: #F6F6F6;
     color: #333333;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "museo-sans", Arial, sans-serif;
     font-size: 2rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -3965,7 +3965,7 @@ ul.pagination {
 
 .side-nav {
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "museo-sans", Arial, sans-serif;
   list-style-position: outside;
   list-style-type: none;
   margin: 0;
@@ -3986,7 +3986,7 @@ ul.pagination {
         color: #1cc7ff; }
     .side-nav li.active > a:first-child:not(.button) {
       color: #1cc7ff;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "museo-sans", Arial, sans-serif;
       font-weight: normal; }
     .side-nav li.divider {
       border-top: 1px solid;
@@ -4106,7 +4106,7 @@ ul.pagination {
   .sub-nav li {
     color: #999999;
     float: left;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "museo-sans", Arial, sans-serif;
     font-size: 0.875rem;
     font-weight: normal;
     margin-left: 1rem;
@@ -4299,7 +4299,7 @@ table {
       display: block;
       background-color: #EFEFEF;
       color: #222222;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "museo-sans", Arial, sans-serif;
       font-size: 1rem;
       padding: 1rem 2rem; }
       .tabs dd > a:hover,
@@ -4611,7 +4611,7 @@ meta.foundation-mq-topbar {
     .top-bar-section ul li > a {
       color: #FFFFFF;
       display: block;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "museo-sans", Arial, sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       padding-left: 0.9375rem;
@@ -5151,7 +5151,7 @@ p {
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
   color: #222222;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "museo-sans", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.4;
@@ -6387,6 +6387,9 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 
+.no-padding {
+  padding: 0; }
+
 .cbp-spmenu-vertical a {
   border-bottom: 1px solid black !important;
   padding: 20px 28px 8px 28px !important; }
@@ -6463,7 +6466,7 @@ a {
   width: auto;
   border: 1px solid white;
   border-radius: 1px;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "museo-sans", Arial, sans-serif;
   font-size: 16px;
   padding: 0 12px;
   text-align: center;
@@ -6484,11 +6487,14 @@ a {
 #partymodal .column + .column:last-child, #partymodal .columns + .columns:last-child {
   float: left; }
 
+#partymodal p {
+  padding-bottom: 28px; }
+
 #partymodal form input {
   height: 36px;
   border: 1px solid black;
   border-radius: 1px;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "museo-sans", Arial, sans-serif;
   font-size: 16px;
   padding: 0 12px;
   margin-top: 7px;
@@ -6499,7 +6505,7 @@ a {
   color: black; }
 
 #partymodal form label {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "museo-sans", Arial, sans-serif;
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -6511,7 +6517,7 @@ a {
   height: 144px;
   border: 1px solid black;
   border-radius: 1px;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "museo-sans", Arial, sans-serif;
   font-size: 16px;
   padding: 12px;
   margin-top: 7px;
@@ -6569,7 +6575,7 @@ a {
 nav {
   height: 80px; }
   nav h1 {
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "museo-sans", Arial, sans-serif;
     font-size: px; }
   nav .button {
     color: white;
@@ -6598,7 +6604,7 @@ nav {
 #curtain {
   clear: both; }
   #curtain h2 {
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "museo-sans", Arial, sans-serif;
     font-size: 67px;
     color: white;
     text-align: center;
@@ -6607,7 +6613,7 @@ nav {
     margin: 0;
     font-weight: 700; }
   #curtain p.subhead {
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "museo-sans", Arial, sans-serif;
     font-size: 24px;
     color: white;
     text-align: center;
@@ -6619,7 +6625,7 @@ nav {
     color: white;
     text-align: center;
     font-size: 18px;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "museo-sans", Arial, sans-serif;
     font-weight: 700;
     padding: 24px 0;
     margin: 0; }
@@ -6630,20 +6636,19 @@ nav {
   clear: both; }
   #about-us h3 {
     text-align: center;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "museo-sans", Arial, sans-serif;
     font-size: 39px;
     margin: 0;
     padding-bottom: 10px;
     font-weight: 300; }
   #about-us p {
-    text-align: center;
-    font-size: 20px;
+    text-align: left;
     margin: 0;
     padding-bottom: 24px; }
   #about-us .button {
     border: 1px solid black;
     color: black;
-    width: 113px;
+    width: 141px;
     margin: 0 auto;
     display: block;
     line-height: 34px; }
@@ -6696,7 +6701,7 @@ nav {
   clear: both; }
   #contact-us h3 {
     text-align: center;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "museo-sans", Arial, sans-serif;
     font-size: 39px;
     margin: 0;
     padding-bottom: 28px;
@@ -6709,14 +6714,14 @@ nav {
     height: 36px;
     border: 1px solid black;
     border-radius: 1px;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "museo-sans", Arial, sans-serif;
     font-size: 16px;
     padding: 0 12px;
     margin-top: 7px;
     background-color: transparent;
     color: black; }
   #contact-us form label {
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "museo-sans", Arial, sans-serif;
     font-size: 14px;
     margin: 0;
     padding: 0;
@@ -6727,7 +6732,7 @@ nav {
     height: 144px;
     border: 1px solid black;
     border-radius: 1px;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "museo-sans", Arial, sans-serif;
     font-size: 16px;
     padding: 12px;
     margin-top: 7px;
@@ -6769,11 +6774,17 @@ nav {
     padding-bottom: 8px; }
   #footer .address {
     padding-bottom: 8px; }
-  #footer a.phone-number {
+  #footer a {
     color: white; }
+    #footer a:hover {
+      text-decoration: underline; }
   #footer .social {
     height: 36px;
-    width: 36px; }
+    width: 36px;
+    opacity: 0.75; }
+    #footer .social:hover {
+      opacity: 1;
+      transition: opacity 350ms ease-in-out; }
   #footer .middle {
     margin: 0 14px; }
 
@@ -6781,9 +6792,11 @@ nav {
   .cbp-spmenu-vertical a {
     padding: 20px 0 8px 0 !important; }
   .cbp-spmenu {
-    padding: 0 28px; }
+    padding: 0 16px; }
   .orbit-container .orbit-slides-container {
     height: 100%; }
+  .slide-contact p:last-of-type {
+    padding: 16px 0 0 7px; }
   nav .logo {
     height: 16px;
     padding-left: 16px; }
@@ -6816,7 +6829,6 @@ nav {
       font-size: 16px;
       padding-bottom: 16px; }
     #about-us .button {
-      width: 113px;
       line-height: 34px; }
   #contact-us {
     padding: 48px 0;
@@ -6833,7 +6845,7 @@ nav {
       height: 144px;
       border: 1px solid black;
       border-radius: 1px;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "museo-sans", Arial, sans-serif;
       font-size: 16px;
       padding: 12px;
       margin-top: 7px;
@@ -6860,8 +6872,7 @@ nav {
     .video h3 {
       text-align: center; }
     .video p {
-      padding-bottom: 32px;
-      text-align: center; } }
+      padding-bottom: 32px; } }
 
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
   .no-full-width-on-mobile {
@@ -6890,7 +6901,7 @@ nav {
   color: black;
   height: 36px;
   border-radius: 1px;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "museo-sans", Arial, sans-serif;
   font-size: 16px;
   padding: 0 12px;
   background-color: transparent;
@@ -6951,7 +6962,7 @@ button.dropdown {
   padding-top: 56px !important; }
 
 h4 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "museo-sans", Arial, sans-serif;
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -6963,7 +6974,7 @@ h4 {
   text-align: center; }
 
 h5 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "museo-sans", Arial, sans-serif;
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -6984,4 +6995,16 @@ h5 {
 
 @media only screen and (max-width: 40em) {
   .mobile-padding {
-    padding: 0 16px; } }
+    padding: 0 16px; }
+  .fsh {
+    padding-bottom: 16px; }
+  .sausages {
+    padding-bottom: 16px; }
+  .chicken {
+    padding-bottom: 16px; }
+  .sides {
+    padding-bottom: 16px; }
+  .slide-contact p {
+    padding: 0; }
+    .slide-contact p:last-of-type {
+      padding: 16px 0 0 0; } }

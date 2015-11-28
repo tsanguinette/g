@@ -4,6 +4,10 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Menu | Grosvenor Fish Bar</title>
+	
+	<!--Typekit-->
+	<script src="https://use.typekit.net/msq0dwd.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 	<!--OG Metadata-->
 	<meta property="og:title" content="Grosvenor Fish Bar Menu" />
@@ -12,7 +16,7 @@
 	content="Grosvenor Fish Bar is long established, 90 years, as a traditional fish and chip shop. We have refurbished and now serve the usual chip shop fare, plus an interesting selection of our own creations." />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://fshshop.com/menu/" />
-	<meta property="og:image" content="img/image.jpg" />
+	<meta property="og:image" content="img/facebook-og.jpg" />
 	<meta property="og:locale" content="en_GB" />
 	<meta name="keywords" content="menu, fish, chips, Norwich, Norfolk, Norwich Lanes, chippy, cod, haddock, goujon, birdcage">
 
@@ -21,10 +25,10 @@
 	<meta name="twitter:site" content="@chippyshop">
 	<meta name="twitter:title" content="Grosvenor Fish Bar Menu">
 	<meta name="twitter:description" content="Grosvenor Fish Bar is long established, 90 years, as a traditional fish and chip shop in Norwich. Try our fish & chips or indulge in our own selection of sandwich creations.">
-	<meta name="twitter:image" content="img/image.jpg">
+	<meta name="twitter:image" content="img/twitter-card.jpg">
 
 	<!--Favorite Icon-->
-	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="img/favico.png" />
 	
 	<!--Global CSS-->
 	<link rel="stylesheet" href="../css/app.css" />
@@ -37,7 +41,7 @@
 			<nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
 
 				<div class="large-2 columns no-full-width-on-mobile">
-					<a href="#partymodal" data-reveal-id="partymodal" class="button left">Book A Table</a>
+					<a href="#partymodal" data-reveal-id="partymodal" class="button left">Party Enquiry</a>
 				</div>
 
 				<div class="large-4 large-offset-2 medium-4 medium-offset-2 no-full-width-on-mobile columns">
@@ -74,7 +78,23 @@
 		<div class="contain-to-grid">
 			<nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
 				<img src="../img/logo.svg" class="logo title-area"/>			
-				<a class="button right toggle-menu menu-right" href="#">Menu</a>
+				<a class="button right toggle-menu menu-right" href="#"><svg class="menu-dots" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						viewBox="0 0 28 8" style="enable-background:new 0 0 28 8;" xml:space="preserve">
+						<style type="text/css">
+							.st0{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
+						</style>
+						<g>
+							<defs>
+								<rect id="SVGID_1_" x="0.1" y="0.4" width="27.8" height="7.2"/>
+							</defs>
+							<clipPath id="SVGID_2_">
+								<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+							</clipPath>
+							<path class="st0" d="M3.7,7.6c2,0,3.6-1.6,3.6-3.6S5.7,0.4,3.7,0.4S0.1,2,0.1,4S1.7,7.6,3.7,7.6"/>
+							<path class="st0" d="M14,7.6c2,0,3.6-1.6,3.6-3.6S16,0.4,14,0.4S10.4,2,10.4,4S12,7.6,14,7.6"/>
+							<path class="st0" d="M24.3,7.6c2,0,3.6-1.6,3.6-3.6s-1.6-3.6-3.6-3.6S20.7,2,20.7,4S22.3,7.6,24.3,7.6"/>
+						</g>
+					</svg></a>
 			</nav>
 		</div>
 	</div>
@@ -84,16 +104,15 @@
 	<!--Tap Menu-->
 	<!-- Right menu element-->
 	<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right">
-		<a href="#">Menu</a>
+		<a href="#">Our Menu</a>
 		<a href="../#about-us">About Us</a>
-		<a class="show-for-small-only" data-reveal-id="partymodal" href="#partymodal">Book A Party</a>
-		<a href="../#photo-wall">Photo Gallery</a>
+		<a class="show-for-small-only" data-reveal-id="partymodal" href="#partymodal">Party Enquiry</a>
 		<a href="../#contact-us">Message Us</a>
 		<a class="show-for-small-only" href="tel:4401603625855">Give Us A Ring</a>
 
 		<div class="slide-contact">
 			<p>Copyright ©2015</p>
-			<p><a class="text-link" href="#">28 Lower Goat Lane</br>Norwich, Great Britian</br>NR2 1EL</a></p>
+			<p><a class="text-link" href="https://www.google.com/maps/place/28+Lower+Goat+Ln,+Norwich,+Norfolk+NR2+1EL,+UK/@52.6299545,1.2893906,17z/data=!3m1!4b1!4m2!3m1!1s0x47d9e3e0d1d912cb:0xfe1ef3ce6968977d">28 Lower Goat Lane</br>Norwich, Great Britian</br>NR2 1EL</a></p>
 			<p>+44 01603 625855</p>
 		</div>
 	</nav>
@@ -102,39 +121,39 @@
 
 	<!--Party Form Modal-->
 	<div id="partymodal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-		<h3>Knees up, mate!</h3>
-		<p class="large-8">You can hire us by the hour or just book a table. We open after hours for groups and have a set menu availabe. Please tell us a bit about what you had in mind!</p>
+		<h3 class="large-offset-2 columns">Knees up, mate!</h3>
+		<p class="large-8 large-offset-2 columns">Whether you’re booking for a special occasion or small gathering you can reserve a spot today. Hire us by the hour or just book a table. We are also open after hours and have a set menu available for groups.</p>
 
 		<form action="//formspree.io/tsanguinette@gmail.com"
 		method="POST" data-abide>
 
 		<div class="row">
-			<div class="large-4 columns">
-				<label>First and Last Name</label>
-				<input type="text" name="name" placeholder="Lady Rose MacClare" required pattern="[a-zA-Z]+">
+			<div class="large-4 large-offset-2 columns">
+				<label>First Name and Surname</label>
+				<input type="text" name="name" placeholder="Lord Mayor" required pattern="[a-zA-Z]+">
 				<small class="error">Please provide your name.</small>
 			</div>
 
 			<div class="large-4 columns">
 				<label>Email Address</label>
-				<input type="email" placeholder="Ilovejackross@downton.co.uk" required pattern="email" name="_replyto">
+				<input type="email" placeholder="lordmayor@council.co.uk" required pattern="email" name="_replyto">
 				<small class="error">Please provide your email address.</small>
 			</div>
 		</div>
 
-		<div class="large-8 columns float-none">
+		<div class="large-8 large-offset-2 columns float-none">
 			<label>When?</label>
 			<input type="date" name="date" required>
-			<small class="error">Please provide your name.</small>
+			<small class="error">Please provide your requested date of booking.</small>
 		</div>
 		
-		<div class="large-8 space-between columns float-none">
+		<div class="large-8 large-offset-2 space-between columns float-none">
 			<label>Message</label>
-			<textarea placeholder="Something new would go here and could be up to a certain number of characters." name="message" required></textarea>
-			<small class="error">Please provide your meesage so we can help you better.</small>
+			<textarea placeholder="Please tell us a bit about your booking. You may specify time, purpose of visit, or enquire more information about our set menu." name="message" required></textarea>
+			<small class="error">Please provide your meesage so we can better help you.</small>
 		</div>
 		
-		<div class="large-3 columns float-none">
+		<div class="large-3 large-offset-2 columns float-none">
 			<input type="submit" value="Send">
 		</div>
 		
@@ -148,11 +167,11 @@
 <!--Mobile Padding-->
 <div class="mobile-padding">
 	<!--Header-->
-	<h3 class="special">Menu</h3>
+	<h3 class="special">Our Menu</h3>
 
 	<div class="row">
 		<div class="large-8 large-offset-2 medium-8 medium-offset-2 columns">
-			<p>The Grosvenor Fish Bar is long established, 90 years, as a traditional fish and chip shop. We have refurbished and now serve the usual chip shop fare, plus an interesting selection of our own creations. We have seating downstairs for up to 50. Eat in/take away, same price.</p>
+			<p>We freshly prepare Cod, Haddock, Plaice, and Mackerel with a crisp coating of batter.  Add mushy peas or a buttered roll for a small fare. Among fish and chips we also serve Sausage, burgers, squid, shark, chicken, and pies. If you fancy something more classic, try our scrumptious Cod Goujon. As always, just order food with us and we'll deliver it to you as you as enjoy your drink at The Birdcage Pub across the road.</p>
 		</div>
 	</div>
 	
@@ -187,7 +206,7 @@
 			<div id="specials" class="specials">
 				<h3>Specials</h3>
 				<ul>
-					<div class="large-6 columns">
+					<div class="large-6 no-padding columns">
 						<li>
 							<h4>Shark Bites</h4>
 							<p class="description">Shark nuggets served with a miso dip <span class="price">5.00</span></p>
@@ -219,7 +238,7 @@
 						</li>
 					</div>
 
-					<div class="large-6 columns">
+					<div class="large-6 no-padding columns">
 						<li>
 							<h4>Big Mack</h4>
 							<p class="description">Crispy mackerel fillet with lettuce and tartare in a roll <span class="price">3.50</span></p>
@@ -254,7 +273,7 @@
 			</div>
 
 			<div class="pad-bot">
-				<div id="fsh" class="fsh large-6 columns float">
+				<div id="fsh" class="fsh large-6 no-padding columns float">
 					<h3>F'sh</h3>
 					<ul>
 						<li>
@@ -299,7 +318,7 @@
 					</ul>
 				</div>
 
-				<div id="chips" class="chips large-6 columns float">
+				<div id="chips" class="chips no-padding large-6 columns float">
 					<h3>Chips</h3>
 					<ul>
 						<li>
@@ -334,7 +353,7 @@
 			</div>
 			
 			<div class="pad-bot">
-				<div class="sausages large-6 columns float">
+				<div class="sausages large-6 no-padding columns float">
 					<h3>Sausages</h3>
 					<ul>
 						<li>
@@ -351,7 +370,7 @@
 					</ul>
 				</div>
 
-				<div class="burgers large-6 columns float">
+				<div class="burgers large-6 no-padding columns float">
 					<h3>Burgers</h3>
 					<ul>
 						<li>
@@ -378,7 +397,7 @@
 			</div>
 			
 			<div class="pad-bot">
-				<div class="chicken large-6 columns float">
+				<div class="chicken large-6 no-padding columns float">
 					<h3>Chicken</h3>
 					<ul>
 						<li>
@@ -395,7 +414,7 @@
 					</ul>
 				</div>
 
-				<div class="pies large-6 columns float">
+				<div class="pies large-6 no-padding columns float">
 					<h3>Pies</h3>
 					<ul>
 						<li>
@@ -410,7 +429,7 @@
 			</div>
 
 			<div class="pad-bot">
-				<div id="sides" class="sides large-6 columns float">
+				<div id="sides" class="sides large-6 no-padding columns float">
 					<h3>Sides</h3>
 					<ul>
 						<li>
@@ -463,7 +482,7 @@
 					</ul>
 				</div>
 
-				<div id="drinks" class="drinks large-6 columns float">
+				<div id="drinks" class="drinks large-6 no-padding columns float">
 					<h3>Drinks</h3>
 					<ul>
 						<li>
@@ -498,7 +517,7 @@
 
 	<div class="row">
 		<p class="copyright">Copyright ©2015</p>
-		<p class="address">28 Lower Goat Lane</br>Norwich, Great Britian</br>NR2 1EL</p>
+		<p class="address"><a href="https://www.google.com/maps/place/28+Lower+Goat+Ln,+Norwich,+Norfolk+NR2+1EL,+UK/@52.6299545,1.2893906,17z/data=!3m1!4b1!4m2!3m1!1s0x47d9e3e0d1d912cb:0xfe1ef3ce6968977d">28 Lower Goat Lane</br>Norwich, Great Britian</br>NR2 1EL</a></p>
 		<p><a class="phone-number" href="tel:4401603625855">+44 01603 625855</a></p>
 	</div>
 
@@ -514,9 +533,6 @@
 <!--Push Menu CSS-->
 <link rel="stylesheet" type="text/css" href="../css/jPushMenu.css" />
 
-<!--Typekit-->
-<script src="https://use.typekit.net/msq0dwd.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 <!--Bower Components-->
 <script src="../bower_components/modernizr/modernizr.js"></script>
