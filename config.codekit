@@ -6421,17 +6421,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favico.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1187,
-		"inputAbbreviatedPath": "\/img\/favico.png",
-		"outputAbbreviatedPath": "\/img\/favico.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/image-1-mobile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
