@@ -218,6 +218,10 @@ a{
 //
 .orbit-container{
 	height:100%;
+	
+	@media #{$medium-only} and (orientation: portrait) { 
+	    height:944px !important;
+	}
 }
 
 
@@ -299,8 +303,17 @@ nav{
 		
 	}
 	
+	.logo-center{
+		height:26px;
+		width:400px;
+	    display: block;
+	    margin: 0 auto;
+	}
+	
 	.logo{
-		height:33px;
+		height:26px;
+		width:400px;
+		margin:0 auto;
 	}
 }
 
@@ -597,6 +610,7 @@ nav{
 
 //Mobile Phone
 @media #{$small-only}{
+	
 	.cbp-spmenu-vertical a{
 		padding:20px 0 8px 0 !important;
 	}
@@ -605,9 +619,8 @@ nav{
 		padding:0 16px;
 	}
 	
-	.orbit-container .orbit-slides-container{
-		//height:667px;
-		height:100%;
+	.orbit-container{
+		height:516px;
 	}
 	
 	.slide-contact p:last-of-type{
@@ -617,7 +630,8 @@ nav{
 	nav{
 		
 		.logo{
-			height:16px;
+			height:15px;
+			width:230px;
 			padding-left:16px;
 		}
 	}
@@ -625,6 +639,13 @@ nav{
 	.top-bar .button{
 		margin-top:6px;
 		line-height:22px;
+	}
+	
+	
+	
+	//Party Modal
+	#partymodal p {
+	    padding-bottom: 16px;
 	}
 	
 	
@@ -665,17 +686,19 @@ nav{
 	
 	//About Us
 	#about-us{
-		padding:48px 0;
+		padding:48px 0 96px 0;
 		height: auto;
 	
 		h3{
 			font-size:22px;
 			padding-bottom:10px;
+			padding-left:16px;
 		}
 	
 		p{
 			font-size:16px;
 			padding-bottom:16px;
+			text-align:center;
 		}
 	
 		.button{
@@ -685,14 +708,22 @@ nav{
 	
 	
 	
+	//Slider Container Height
+	.slider-height-fix{
+		height:320px;
+	}
+	
+	
+	
 	//Contact Us
 	#contact-us{
-		padding:48px 0;
+		padding:32px 0;
 		height:auto;
 	
 		h3{
 			font-size:22px;
 			padding-bottom:16px;
+			padding-left:16px;
 		}
 	
 		form{
@@ -740,8 +771,7 @@ nav{
 	
 	//
 	.video{
-		border-top:1px solid $gray;
-		padding:32px 0 0 0;
+		padding:96px 0 0 0;
 		
 		.flex-video{
 			padding-top:0;
@@ -755,8 +785,8 @@ nav{
 		}
 	
 		p{
-			padding-bottom:32px;
-			//text-align:center;
+			padding-bottom:16px;
+			text-align:center;
 		}
 	}
 }
@@ -768,15 +798,8 @@ nav{
 		width:auto;
 	}
 	
-	nav{
-		
-		.logo{
-			height:17px;
-		}
-	}
-	
 	.orbit-container {
-		height:auto;
+		height:768px;
 	}
 	
 	//Video

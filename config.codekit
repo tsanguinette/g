@@ -6344,6 +6344,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/biglogo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7962,
+		"inputAbbreviatedPath": "\/img\/biglogo.png",
+		"outputAbbreviatedPath": "\/img\/biglogo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/curtain-1-landscape.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 194578,
+		"inputAbbreviatedPath": "\/img\/curtain-1-landscape.jpg",
+		"outputAbbreviatedPath": "\/img\/curtain-1-landscape.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/curtain-1-mobile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6351,6 +6373,17 @@
 		"initialSize": 42680,
 		"inputAbbreviatedPath": "\/img\/curtain-1-mobile.jpg",
 		"outputAbbreviatedPath": "\/img\/curtain-1-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/curtain-1-portrait.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178101,
+		"inputAbbreviatedPath": "\/img\/curtain-1-portrait.jpg",
+		"outputAbbreviatedPath": "\/img\/curtain-1-portrait.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6366,6 +6399,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/curtain-2-landscape.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98006,
+		"inputAbbreviatedPath": "\/img\/curtain-2-landscape.jpg",
+		"outputAbbreviatedPath": "\/img\/curtain-2-landscape.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/curtain-2-mobile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6373,6 +6417,17 @@
 		"initialSize": 40342,
 		"inputAbbreviatedPath": "\/img\/curtain-2-mobile.jpg",
 		"outputAbbreviatedPath": "\/img\/curtain-2-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/curtain-2-portrait.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92401,
+		"inputAbbreviatedPath": "\/img\/curtain-2-portrait.jpg",
+		"outputAbbreviatedPath": "\/img\/curtain-2-portrait.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6388,6 +6443,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/curtain-3-landscape.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93039,
+		"inputAbbreviatedPath": "\/img\/curtain-3-landscape.jpg",
+		"outputAbbreviatedPath": "\/img\/curtain-3-landscape.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/curtain-3-mobile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6395,6 +6461,17 @@
 		"initialSize": 53767,
 		"inputAbbreviatedPath": "\/img\/curtain-3-mobile.jpg",
 		"outputAbbreviatedPath": "\/img\/curtain-3-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/curtain-3-portrait.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93797,
+		"inputAbbreviatedPath": "\/img\/curtain-3-portrait.jpg",
+		"outputAbbreviatedPath": "\/img\/curtain-3-portrait.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6516,6 +6593,17 @@
 		"initialSize": 86909,
 		"inputAbbreviatedPath": "\/img\/image-4.jpg",
 		"outputAbbreviatedPath": "\/img\/image-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/smalllogo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4273,
+		"inputAbbreviatedPath": "\/img\/smalllogo.png",
+		"outputAbbreviatedPath": "\/img\/smalllogo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

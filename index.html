@@ -39,15 +39,15 @@
 		<div class="contain-to-grid sticky">
 			<nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
 				
-				<div class="large-2 columns no-full-width-on-mobile">
+				<div class="large-2 medium-2 columns">
 					<a href="#partymodal" data-reveal-id="partymodal" class="button left">Party Enquiry</a>
 				</div>
 				
-				<div class="large-4 large-offset-2 medium-2 medium-offset-1 no-full-width-on-mobile columns">
-					<a href="#"><img src="img/logo.svg" class="logo"/></a>
+				<div class="large-8 medium-8 columns">
+					<a class="logo-center" href="#"><img src="img/biglogo.png" class="logo"/></a>
 				</div>
 				
-				<div class="large-1 columns no-full-width-on-mobile">
+				<div class="large-1 medium-1 columns">
 					<a id="pad-right-menu-dots" class="button right toggle-menu menu-right" href="#"><svg class="menu-dots" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 						viewBox="0 0 28 8" style="enable-background:new 0 0 28 8;" xml:space="preserve">
 						<style type="text/css">
@@ -76,7 +76,7 @@
 	<div class="show-for-small-only sticky">
 		<div class="contain-to-grid">
 			<nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
-				<img src="img/logo.svg" class="logo title-area"/>			
+				<img src="img/smalllogo.png" class="logo title-area"/>			
 				<a class="button right toggle-menu menu-right" href="#"><svg class="menu-dots" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 						viewBox="0 0 28 8" style="enable-background:new 0 0 28 8;" xml:space="preserve">
 						<style type="text/css">
@@ -187,15 +187,15 @@ variable_height:false;">
 			</div>
 		</div>
 
-		<img class="back" src="img/curtain-1.jpg" alt="slide 1" data-interchange="[img/curtain-1.jpg, (default)], [img/curtain-1-mobile.jpg, (small-only)]" />
+		<img class="back" src="img/curtain-1.jpg" alt="slide 1" data-interchange="[img/curtain-1.jpg, (default)], [img/curtain-1.jpg, (large-only)], [img/curtain-1-mobile.jpg, (small-only)], [img/curtain-1-portrait.jpg, (portrait)], [img/curtain-1-landscape.jpg, (ilandscape)]" />
 	</li>
 
 	<li>
-		<img src="img/curtain-2.jpg" alt="slide 2" data-interchange="[img/curtain-2.jpg, (default)], [img/curtain-2-mobile.jpg, (small-only)]" />
+		<img src="img/curtain-2.jpg" alt="slide 2" data-interchange="[img/curtain-2.jpg, (default)], [img/curtain-2.jpg, (large)], [img/curtain-2-mobile.jpg, (small-only)], [img/curtain-2-portrait.jpg, (portrait)], [img/curtain-2-landscape.jpg, (ilandscape)]" />
 	</li>
 
 	<li>
-		<img src="img/curtain-3.jpg" alt="slide 3" data-interchange="[img/curtain-3.jpg, (default)], [img/curtain-3-mobile.jpg, (small-only)]" />
+		<img src="img/curtain-3.jpg" alt="slide 3" data-interchange="[img/curtain-3.jpg, (default)], [img/curtain-3-mobile.jpg, (small-only)], [img/curtain-3-portrait.jpg, (portrait)], [img/curtain-3-landscape.jpg, (ilandscape)]" />
 	</li>
 </ul>
 
@@ -227,7 +227,7 @@ variable_height:false;">
 
 <!--Photo Wall Mobile Slider-->
 <!--Orbit Slider/Curtain-->
-<div class="show-for-small-only">
+<div class="show-for-small-only slider-height-fix">
 	<ul class="example-orbit photo-wall-mobile" data-orbit data-options="animation:slide;
 	pause_on_hover:false;
 	animation_speed:500;
@@ -375,5 +375,15 @@ variable_height:false;">
 
 	<!--JS Calls Combined-->
 	<script src="js/all.js"></script>
+	
+	<script>
+	$(document).foundation({
+	  interchange : {
+	    named_queries : {
+	      ilandscape : 'only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1)'
+	    }
+	  }
+	});
+	</script>
 </body>
 </html>

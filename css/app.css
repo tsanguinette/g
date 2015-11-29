@@ -6539,6 +6539,9 @@ a {
 
 .orbit-container {
   height: 100%; }
+  @media only screen and (min-width: 40.0625em) and (max-width: 64em) and (orientation: portrait) {
+    .orbit-container {
+      height: 944px !important; } }
 
 .orbit-bullets-container {
   position: relative;
@@ -6592,8 +6595,15 @@ nav {
     position: relative;
     top: 28px;
     right: 12px; }
+  nav .logo-center {
+    height: 26px;
+    width: 400px;
+    display: block;
+    margin: 0 auto; }
   nav .logo {
-    height: 33px; }
+    height: 26px;
+    width: 400px;
+    margin: 0 auto; }
 
 .back {
   position: absolute;
@@ -6793,16 +6803,19 @@ nav {
     padding: 20px 0 8px 0 !important; }
   .cbp-spmenu {
     padding: 0 16px; }
-  .orbit-container .orbit-slides-container {
-    height: 100%; }
+  .orbit-container {
+    height: 516px; }
   .slide-contact p:last-of-type {
     padding: 16px 0 0 7px; }
   nav .logo {
-    height: 16px;
+    height: 15px;
+    width: 230px;
     padding-left: 16px; }
   .top-bar .button {
     margin-top: 6px;
     line-height: 22px; }
+  #partymodal p {
+    padding-bottom: 16px; }
   .photo-wall-mobile {
     height: 350px;
     background: red;
@@ -6820,22 +6833,27 @@ nav {
     font-size: 14px;
     padding: 16px 0; }
   #about-us {
-    padding: 48px 0;
+    padding: 48px 0 96px 0;
     height: auto; }
     #about-us h3 {
       font-size: 22px;
-      padding-bottom: 10px; }
+      padding-bottom: 10px;
+      padding-left: 16px; }
     #about-us p {
       font-size: 16px;
-      padding-bottom: 16px; }
+      padding-bottom: 16px;
+      text-align: center; }
     #about-us .button {
       line-height: 34px; }
+  .slider-height-fix {
+    height: 320px; }
   #contact-us {
-    padding: 48px 0;
+    padding: 32px 0;
     height: auto; }
     #contact-us h3 {
       font-size: 22px;
-      padding-bottom: 16px; }
+      padding-bottom: 16px;
+      padding-left: 16px; }
     #contact-us form input {
       padding: 0 12px;
       margin-top: 7px; }
@@ -6862,8 +6880,7 @@ nav {
         background-color: transparent;
         color: black; }
   .video {
-    border-top: 1px solid #e5e5e5;
-    padding: 32px 0 0 0; }
+    padding: 96px 0 0 0; }
     .video .flex-video {
       padding-top: 0;
       margin-bottom: 0;
@@ -6872,15 +6889,14 @@ nav {
     .video h3 {
       text-align: center; }
     .video p {
-      padding-bottom: 32px; } }
+      padding-bottom: 16px;
+      text-align: center; } }
 
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
   .no-full-width-on-mobile {
     width: auto; }
-  nav .logo {
-    height: 17px; }
   .orbit-container {
-    height: auto; }
+    height: 768px; }
   .video {
     padding: 32px 0 0 0;
     clear: both;
