@@ -6545,8 +6545,11 @@ a {
 
 .orbit-bullets-container {
   position: relative;
-  bottom: 52px;
   display: none; }
+
+.orbit-bullets {
+  bottom: -670px;
+  top: inherit; }
 
 .orbit-bullets li {
   height: 19px;
@@ -6893,12 +6896,17 @@ nav {
       text-align: center; } }
 
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
-  .no-full-width-on-mobile {
-    width: auto; }
+  nav .logo {
+    height: 21px;
+    width: 325px;
+    padding-left: 16px; }
+  nav .logo-center {
+    height: 21px;
+    width: 325px; }
   .orbit-container {
-    height: 768px; }
+    height: 713px; }
   .video {
-    padding: 32px 0 0 0;
+    padding: 84px 0 0 0;
     clear: both;
     overflow: auto; }
     .video .flex-video {

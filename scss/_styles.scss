@@ -229,8 +229,12 @@ a{
 //Slider Dots
 .orbit-bullets-container{
 	position:relative;
-	bottom:52px;
 	display:none;
+}
+
+.orbit-bullets{
+	bottom: -670px;
+	top:inherit;
 }
 
 .orbit-bullets li{
@@ -794,17 +798,27 @@ nav{
 
 
 @media #{$medium-only}{
-	.no-full-width-on-mobile{
-		width:auto;
+	nav{
+		
+		.logo{
+			height:21px;
+			width:325px;
+			padding-left:16px;
+		}
+		
+		.logo-center {
+		    height: 21px;
+		    width: 325px;
+		}
 	}
 	
 	.orbit-container {
-		height:768px;
+		height:713px;
 	}
 	
 	//Video
 	.video{
-		padding:32px 0 0 0;
+		padding:84px 0 0 0;
 		clear:both;
 		overflow:auto;
 	
