@@ -6388,11 +6388,12 @@ th.hide-for-touch {
     display: table-cell !important; } }
 
 .header {
-  height: 50px;
+  height: 83px;
   width: 100%;
   position: fixed;
   z-index: 9999;
-  background-color: transparent; }
+  background-color: transparent;
+  transition: all 500ms ease-in-out; }
 
 .test-fish {
   width: 282px;
@@ -6556,11 +6557,9 @@ a {
     background-color: transparent;
     color: black; }
 
-.orbit-container {
-  height: 100%; }
-  @media only screen and (min-width: 40.0625em) and (max-width: 64em) and (orientation: portrait) {
-    .orbit-container {
-      height: 944px !important; } }
+@media only screen and (min-width: 40.0625em) and (max-width: 64em) and (orientation: portrait) {
+  .orbit-container {
+    height: 944px !important; } }
 
 .orbit-bullets-container {
   position: relative;
@@ -6583,18 +6582,11 @@ a {
 
 .contain-to-grid .top-bar {
   margin: 0 auto;
-  margin-bottom: 0;
-  max-width: none;
-  -webkit-box-shadow: -10px 12px 26px -15px rgba(0, 0, 0, 0.76);
-  -moz-box-shadow: -10px 12px 26px -15px rgba(0, 0, 0, 0.76);
-  box-shadow: -10px 12px 26px -15px rgba(0, 0, 0, 0.76); }
+  padding-top: 20px;
+  max-width: none; }
 
 .topbar {
   background-color: inherit; }
-
-.sticky {
-  background-color: black;
-  padding: 5px 0; }
 
 nav {
   height: 80px; }
@@ -6620,7 +6612,7 @@ nav {
     height: 26px;
     width: 400px;
     display: block;
-    margin: 0 auto; }
+    margin: -1px auto 0 auto; }
   nav .logo {
     height: 26px;
     width: 400px;
@@ -6640,7 +6632,7 @@ nav {
     color: white;
     text-align: center;
     line-height: 60px;
-    padding: 28px 0 0 0;
+    padding: 21% 0 0 0;
     margin: 0;
     font-weight: 900;
     text-transform: uppercase;
@@ -6650,6 +6642,7 @@ nav {
     font-size: 24px;
     margin: 0;
     padding: 13% 0 0 0;
+    display: none;
     letter-spacing: 0.75px;
     font-weight: 700;
     text-transform: uppercase;
@@ -6657,10 +6650,10 @@ nav {
     color: white; }
   #curtain p.subhead {
     font-family: "museo-sans", Arial, sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     color: white;
     text-align: center;
-    line-height: 28px;
+    line-height: 22px;
     padding: 0;
     margin: 0;
     font-weight: 300; }
@@ -6933,8 +6926,6 @@ nav {
   nav .logo-center {
     height: 21px;
     width: 325px; }
-  .orbit-container {
-    height: 713px; }
   #curtain h2 {
     font-size: 70px;
     padding: 16px 0 0 0; }
