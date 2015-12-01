@@ -36,8 +36,8 @@
 
 	<!--Medium Up Navbar-->
 	<div class="show-for-medium-up">
-		<div class="contain-to-grid sticky">
-			<nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+		<div class="contain-to-grid">
+			<nav class="top-bar header" data-topbar role="navigation">
 				
 				<div class="large-2 medium-3 columns">
 					<a href="#partymodal" data-reveal-id="partymodal" class="button left">Party Enquiry</a>
@@ -390,6 +390,17 @@ variable_height:false;">
 	    }
 	  }
 	});
+	</script>
+
+	<script>
+$(window).scroll(function () {
+    if ($(window).scrollTop() > 400) { 
+        $('.header').css( "background-color", "black" );
+    }
+    else{
+        $('.header').css( "background-color", "transparent" );
+    }
+});
 	</script>
 </body>
 </html>

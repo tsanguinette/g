@@ -6387,6 +6387,13 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 
+.header {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  background-color: transparent; }
+
 .test-fish {
   width: 282px;
   height: 47px;
@@ -6582,9 +6589,8 @@ a {
   -moz-box-shadow: -10px 12px 26px -15px rgba(0, 0, 0, 0.76);
   box-shadow: -10px 12px 26px -15px rgba(0, 0, 0, 0.76); }
 
-.contain-to-grid .top-bar {
-  background-color: transparent !important;
-  background: transparent !important; }
+.topbar {
+  background-color: inherit; }
 
 .sticky {
   background-color: black;
