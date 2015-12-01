@@ -6597,6 +6597,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/secondary-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30108,
+		"inputAbbreviatedPath": "\/img\/secondary-logo.jpg",
+		"outputAbbreviatedPath": "\/img\/secondary-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/smalllogo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6604,6 +6615,17 @@
 		"initialSize": 4273,
 		"inputAbbreviatedPath": "\/img\/smalllogo.png",
 		"outputAbbreviatedPath": "\/img\/smalllogo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/test-fish.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2328,
+		"inputAbbreviatedPath": "\/img\/test-fish.png",
+		"outputAbbreviatedPath": "\/img\/test-fish.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

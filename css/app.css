@@ -6387,6 +6387,11 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 
+.test-fish {
+  width: 282px;
+  height: 47px;
+  margin: 14px auto 0 auto; }
+
 .no-padding {
   padding: 0; }
 
@@ -6405,6 +6410,13 @@ th.hide-for-touch {
     font-weight: 300; }
     .cbp-spmenu a:hover {
       background: #c2c2c2 !important; }
+
+.secondary-logo {
+  width: 100px;
+  height: 82px;
+  margin-bottom: 28px;
+  margin-left: 28px;
+  margin-top: 28px; }
 
 .slide-contact {
   position: absolute;
@@ -6618,13 +6630,25 @@ nav {
   clear: both; }
   #curtain h2 {
     font-family: "museo-sans", Arial, sans-serif;
-    font-size: 67px;
+    font-size: 100px;
     color: white;
     text-align: center;
     line-height: 60px;
-    padding: 13% 0 0 0;
+    padding: 28px 0 0 0;
     margin: 0;
-    font-weight: 700; }
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -1px; }
+  #curtain h4 {
+    font-family: "museo-sans", Arial, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    padding: 13% 0 0 0;
+    letter-spacing: 0.75px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: white; }
   #curtain p.subhead {
     font-family: "museo-sans", Arial, sans-serif;
     font-size: 24px;
