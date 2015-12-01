@@ -6929,6 +6929,15 @@ nav {
     width: 325px; }
   .orbit-container {
     height: 713px; }
+  #curtain h2 {
+    font-size: 70px;
+    padding: 16px 0 0 0; }
+  #curtain h4 {
+    padding: 34% 0 0 0; }
+  #curtain .hours {
+    padding: 16px 0; }
+  #curtain .test-fish {
+    margin: 18px auto 0 auto; }
   .video {
     padding: 84px 0 0 0;
     clear: both;
@@ -6943,6 +6952,10 @@ nav {
     .video p {
       padding-bottom: 32px;
       text-align: center; } }
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  h4 {
+    padding: 16% 0 0 0 !important; } }
 
 .button-dropdown {
   border: 1px solid black;
