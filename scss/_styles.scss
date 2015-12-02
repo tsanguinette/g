@@ -358,6 +358,10 @@ nav{
 
 #curtain{
 	clear:both;
+	background-image:url("../img/curtain-1.jpg");
+	background-size:cover;
+	height:100%;
+	width:100%;
 	
 	h2{
 		font-family:$font-family-sans-serif;
@@ -405,6 +409,13 @@ nav{
 		font-weight:700;
 		padding: 24px 0;
 		margin:0;
+	}
+
+	.test-fish{
+		margin: 18px auto 0 auto;
+		height:47px !important;
+		width:287px;
+		display:block;
 	}
 }
 
@@ -758,12 +769,6 @@ nav{
 	//Slider Container Height
 	.slider-height-fix{
 		height:320px;
-	}
-	
-	
-	.test-fish{
-		margin: 18px auto 0 auto;
-		height:47px !important;
 	}
 
 	

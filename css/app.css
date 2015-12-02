@@ -6627,7 +6627,11 @@ nav {
   z-index: -1; }
 
 #curtain {
-  clear: both; }
+  clear: both;
+  background-image: url("../img/curtain-1.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%; }
   #curtain h2 {
     font-family: "museo-sans", Arial, sans-serif;
     font-size: 100px;
@@ -6667,6 +6671,11 @@ nav {
     font-weight: 700;
     padding: 24px 0;
     margin: 0; }
+  #curtain .test-fish {
+    margin: 18px auto 0 auto;
+    height: 47px !important;
+    width: 287px;
+    display: block; }
 
 #about-us {
   padding: 84px 0;
@@ -6875,9 +6884,6 @@ nav {
       line-height: 34px; }
   .slider-height-fix {
     height: 320px; }
-  .test-fish {
-    margin: 18px auto 0 auto;
-    height: 47px !important; }
   #contact-us {
     padding: 32px 0;
     height: auto; }
