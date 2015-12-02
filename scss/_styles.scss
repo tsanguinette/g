@@ -4,7 +4,7 @@
     position: fixed;
     z-index:9999;
     background-color:transparent;
-    transition: all 500ms ease-in-out;
+    transition: all 400ms ease-in-out;
 }
 
 
@@ -664,8 +664,12 @@ nav{
 		padding:0 16px;
 	}
 	
-	.orbit-container{
-		height:516px;
+	.orbit-container .orbit-slides-container{
+		height:568px !important;
+		
+		.fivesixtyeight{
+			height:568px;
+		}
 	}
 	
 	.slide-contact p:last-of-type{
@@ -697,10 +701,8 @@ nav{
 	
 	//Photo Wall
 	.photo-wall-mobile{
-		height:350px;
-		background:red;
-		overflow:visible;
 		display:block;
+		height:320px;
 	}
 	
 	
@@ -711,7 +713,7 @@ nav{
 		h2{
 			font-size:34px;
 			line-height:30px;
-			padding:35% 0 0 0;
+			padding:55% 0 0 0;
 		}
 	
 		p.subhead{
@@ -758,6 +760,12 @@ nav{
 		height:320px;
 	}
 	
+	
+	.test-fish{
+		margin: 18px auto 0 auto;
+		height:47px !important;
+	}
+
 	
 	
 	//Contact Us
@@ -867,20 +875,15 @@ nav{
 		
 		h2 {
 			font-size: 70px;
-			padding: 16px 0 0 0;
+			padding: 50% 0 0 0;
 		}
 			
 		h4{
-			padding: 34% 0 0 0;
 			//padding: 12% 0 0 0;
 		}
 		
 		.hours{
 			padding:16px 0;
-		}
-		
-		.test-fish{
-			margin: 18px auto 0 auto;
 		}
 	}
 	
@@ -913,8 +916,8 @@ nav{
 
 //Landscape iPad
 @media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1){
-	h4{
-		padding: 16% 0 0 0 !important;
+	h2{
+		padding: 29% 0 0 0 !important;
 	}
 }
 
