@@ -6557,9 +6557,11 @@ a {
     background-color: transparent;
     color: black; }
 
-@media only screen and (min-width: 40.0625em) and (max-width: 64em) and (orientation: portrait) {
-  .orbit-container {
-    height: 944px !important; } }
+.orbit-container {
+  height: 100%; }
+  @media only screen and (min-width: 40.0625em) and (max-width: 64em) and (orientation: portrait) {
+    .orbit-container {
+      height: 944px !important; } }
 
 .orbit-bullets-container {
   position: relative;
