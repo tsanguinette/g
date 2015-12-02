@@ -6401,7 +6401,7 @@ th.hide-for-touch {
   margin: 14px auto 0 auto; }
 
 .no-padding {
-  padding: 0; }
+  padding: 0 28px 0 0; }
 
 .cbp-spmenu-vertical a {
   border-bottom: 1px solid black !important;
@@ -6954,6 +6954,17 @@ nav {
 @media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   h2 {
     padding: 29% 0 0 0 !important; } }
+
+.header-secondary {
+  position: fixed;
+  background: black;
+  height: 83px;
+  width: 100%;
+  z-index: 9999;
+  margin-top: -3px; }
+
+.secondary-padding {
+  padding-top: 112px; }
 
 .button-dropdown {
   border: 1px solid black;

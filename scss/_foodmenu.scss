@@ -1,3 +1,16 @@
+.header-secondary{
+	position:fixed;
+	background:black;
+	height: 83px;
+    width: 100%;
+    z-index:9999;
+    margin-top:-3px; //Moved to show-for-medium-up
+}
+
+.secondary-padding{
+	padding-top:112px;
+}
+
 //Food Menu
 .button-dropdown{
 	border: 1px solid black;
