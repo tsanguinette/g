@@ -6,8 +6,8 @@
 	<title>Grosvenor Fish Bar</title>
 	
 	<!--Typekit-->
-	<script src="https://use.typekit.net/msq0dwd.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<!--<script src="https://use.typekit.net/msq0dwd.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
 
 	<!--OG Metadata-->
 	<meta property="og:title" content="Grosvenor Fish Bar" />
@@ -73,9 +73,9 @@
 	
 	
 	<!--Small Only Navbar-->
-	<div class="show-for-small-only sticky">
+	<div class="show-for-small-only">
 		<div class="contain-to-grid">
-			<nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+			<nav class="top-bar header" data-topbar role="navigation">
 				<img src="img/smalllogo.png" class="logo title-area"/>			
 				<a class="button right toggle-menu menu-right" href="#"><svg class="menu-dots" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 						viewBox="0 0 28 8" style="enable-background:new 0 0 28 8;" xml:space="preserve">
@@ -193,15 +193,15 @@ variable_height:false;">
 			</div>
 		</div>
 
-		<img class="back" src="img/curtain-1.jpg" alt="slide 1" data-interchange="[img/curtain-1.jpg, (default)], [img/curtain-1.jpg, (large-only)], [img/curtain-1-mobile.jpg, (small-only)], [img/curtain-1-portrait.jpg, (portrait)], [img/curtain-1-landscape.jpg, (ilandscape)]" />
+		<img class="back fivesixtyeight" src="img/curtain-1.jpg" alt="slide 1" data-interchange="[img/curtain-1.jpg, (default)], [img/curtain-1.jpg, (large-only)], [img/curtain-1-mobile.jpg, (small-only)], [img/curtain-1-portrait.jpg, (portrait)], [img/curtain-1-landscape.jpg, (ilandscape)]" />
 	</li>
 
 	<li>
-		<img src="img/curtain-2.jpg" alt="slide 2" data-interchange="[img/curtain-2.jpg, (default)], [img/curtain-2.jpg, (large)], [img/curtain-2-mobile.jpg, (small-only)], [img/curtain-2-portrait.jpg, (portrait)], [img/curtain-2-landscape.jpg, (ilandscape)]" />
+		<img class="fivesixtyeight" src="img/curtain-2.jpg" alt="slide 2" data-interchange="[img/curtain-2.jpg, (default)], [img/curtain-2.jpg, (large)], [img/curtain-2-mobile.jpg, (small-only)], [img/curtain-2-portrait.jpg, (portrait)], [img/curtain-2-landscape.jpg, (ilandscape)]" />
 	</li>
 
 	<li>
-		<img src="img/curtain-3.jpg" alt="slide 3" data-interchange="[img/curtain-3.jpg, (default)], [img/curtain-3-mobile.jpg, (small-only)], [img/curtain-3-portrait.jpg, (portrait)], [img/curtain-3-landscape.jpg, (ilandscape)]" />
+		<img class="fivesixtyeight" src="img/curtain-3.jpg" alt="slide 3" data-interchange="[img/curtain-3.jpg, (default)], [img/curtain-3-mobile.jpg, (small-only)], [img/curtain-3-portrait.jpg, (portrait)], [img/curtain-3-landscape.jpg, (ilandscape)]" />
 	</li>
 </ul>
 
@@ -394,7 +394,7 @@ variable_height:false;">
 
 	<script>
 $(window).scroll(function () {
-    if ($(window).scrollTop() > 100) { 
+    if ($(window).scrollTop() > 80) { 
         $('.header').css( "background-color", "black" );
     }
     else{
