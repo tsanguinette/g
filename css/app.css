@@ -6628,7 +6628,7 @@ nav {
 
 #curtain {
   clear: both;
-  background-image: url("../img/curtain-1.jpg");
+  background-image: url("../img/curtain-1-placeholder.jpg");
   background-size: cover;
   height: 100%;
   width: 100%; }
