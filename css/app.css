@@ -6391,7 +6391,7 @@ th.hide-for-touch {
   height: 83px;
   width: 100%;
   position: fixed;
-  z-index: 9999;
+  z-index: 9998;
   background-color: transparent;
   transition: all 400ms ease-in-out; }
 
@@ -6960,7 +6960,7 @@ nav {
   background: black;
   height: 83px;
   width: 100%;
-  z-index: 9999;
+  z-index: 9998;
   margin-top: -3px; }
 
 .secondary-padding {
