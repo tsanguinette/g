@@ -6557,31 +6557,6 @@ a {
     background-color: transparent;
     color: black; }
 
-.orbit-container {
-  height: 100%; }
-  @media only screen and (min-width: 40.0625em) and (max-width: 64em) and (orientation: portrait) {
-    .orbit-container {
-      height: 944px !important; } }
-
-.orbit-bullets-container {
-  position: relative;
-  display: none; }
-
-.orbit-bullets {
-  bottom: -670px;
-  top: inherit; }
-
-.orbit-bullets li {
-  height: 19px;
-  width: 19px;
-  background: white;
-  opacity: 0.5;
-  margin-right: 15px; }
-
-.orbit-bullets li.active {
-  opacity: 1;
-  background: white; }
-
 .contain-to-grid .top-bar {
   margin: 0 auto;
   padding-top: 20px;
@@ -6620,12 +6595,6 @@ nav {
     width: 400px;
     margin: 0 auto; }
 
-.back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1; }
-
 #curtain {
   clear: both;
   background-image: url("../img/curtain-1-placeholder.jpg");
@@ -6638,11 +6607,12 @@ nav {
     color: white;
     text-align: center;
     line-height: 60px;
-    padding: 21% 0 0 0;
+    padding: 22% 0 0 0;
     margin: 0;
     font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: -1px; }
+    letter-spacing: -1px;
+    text-rendering: geometricPrecision; }
   #curtain h4 {
     font-family: "museo-sans", Arial, sans-serif;
     font-size: 24px;
@@ -6662,15 +6632,17 @@ nav {
     line-height: 22px;
     padding: 0;
     margin: 0;
-    font-weight: 300; }
+    font-weight: 300;
+    text-rendering: geometricPrecision; }
   #curtain .hours {
     color: white;
     text-align: center;
     font-size: 18px;
     font-family: "museo-sans", Arial, sans-serif;
     font-weight: 700;
-    padding: 24px 0;
-    margin: 0; }
+    padding: 24px 0 14px 0;
+    margin: 0;
+    text-rendering: geometricPrecision; }
   #curtain .test-fish {
     margin: 18px auto 0 auto;
     height: 47px !important;
@@ -6840,12 +6812,6 @@ nav {
     padding: 20px 0 8px 0 !important; }
   .cbp-spmenu {
     padding: 0 16px; }
-  .orbit-container .orbit-slides-container {
-    height: 568px !important; }
-    .orbit-container .orbit-slides-container .fivesixtyeight {
-      height: 568px; }
-  .slide-contact p:last-of-type {
-    padding: 16px 0 0 7px; }
   nav .logo {
     height: 15px;
     width: 230px;
@@ -6882,8 +6848,6 @@ nav {
       text-align: center; }
     #about-us .button {
       line-height: 34px; }
-  .slider-height-fix {
-    height: 320px; }
   #contact-us {
     padding: 32px 0;
     height: auto; }

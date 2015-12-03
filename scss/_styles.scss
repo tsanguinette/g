@@ -7,10 +7,6 @@
     transition: all 400ms ease-in-out;
 }
 
-
-
-
-
 .test-fish{
 	width:282px;
 	height:47px;
@@ -243,39 +239,39 @@ a{
 
 
 //
-.orbit-container{
-	height:100%;
+//.orbit-container{
+//	height:100%;
 	
-	@media #{$medium-only} and (orientation: portrait) { 
-	    height:944px !important;
-	}
-}
+//	@media #{$medium-only} and (orientation: portrait) { 
+//	    height:944px !important;
+//	}
+//}
 
 
 
 //Slider Dots
-.orbit-bullets-container{
-	position:relative;
-	display:none;
-}
+//.orbit-bullets-container{
+//	position:relative;
+//	display:none;
+//}
 
-.orbit-bullets{
-	bottom: -670px;
-	top:inherit;
-}
+//.orbit-bullets{
+//	bottom: -670px;
+//	top:inherit;
+//}
 
-.orbit-bullets li{
-	height:19px;
-	width:19px;
-	background:white;
-	opacity:0.5;
-	margin-right: 15px;
-}
+//.orbit-bullets li{
+//	height:19px;
+//	width:19px;
+//	background:white;
+//	opacity:0.5;
+//	margin-right: 15px;
+//}
 
-.orbit-bullets li.active{
-	opacity:1;
-	background:white;
-}
+//.orbit-bullets li.active{
+//	opacity:1;
+//	background:white;
+//}
 
 
 
@@ -349,12 +345,12 @@ nav{
 
 
 //Orbit Content Slider
-.back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
+//.back {
+//    position: absolute;
+//    top: 0;
+//    left: 0;
+//    z-index: -1;
+//}
 
 #curtain{
 	clear:both;
@@ -371,11 +367,12 @@ nav{
 		text-align:center;
 		line-height:60px;
 		//padding:28px 0 0 0;
-		padding:21% 0 0 0;
+		padding:22% 0 0 0;
 		margin:0;
 		font-weight:900;
 	    text-transform: uppercase;
 	    letter-spacing: -1px;
+		text-rendering: geometricPrecision;
 	}
 	
 	h4{
@@ -400,6 +397,7 @@ nav{
 		padding:0;
 		margin:0;
 		font-weight:300;
+		text-rendering: geometricPrecision;
 	}
 	
 	.hours{
@@ -408,8 +406,9 @@ nav{
 		font-size:18px;
 		font-family:$font-family-sans-serif;
 		font-weight:700;
-		padding: 24px 0;
+		padding:24px 0 14px 0;
 		margin:0;
+		text-rendering: geometricPrecision;
 	}
 
 	.test-fish{
@@ -676,17 +675,17 @@ nav{
 		padding:0 16px;
 	}
 	
-	.orbit-container .orbit-slides-container{
-		height:568px !important;
+	//.orbit-container .orbit-slides-container{
+	//	height:568px !important;
 		
-		.fivesixtyeight{
-			height:568px;
-		}
-	}
+	//	.fivesixtyeight{
+	//		height:568px;
+	//	}
+	//}
 	
-	.slide-contact p:last-of-type{
-		padding:16px 0 0 7px;
-	}
+	//.slide-contact p:last-of-type{
+	//	padding:16px 0 0 7px;
+	//}
 	
 	nav{
 		
@@ -768,9 +767,9 @@ nav{
 	
 	
 	//Slider Container Height
-	.slider-height-fix{
-		height:320px;
-	}
+	//.slider-height-fix{
+	//	height:320px;
+	//}
 
 	
 	
